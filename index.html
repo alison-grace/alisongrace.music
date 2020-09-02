@@ -16,21 +16,45 @@
 <p style=background-color:#6F6F6F id="rounded">
 
 <img src="/pic_kevenandsoki.png">
-
-<a href="https://kevenandsoki.github.io/music" style="text-decoration: none;" >
-  <img src="/music.png">
-</a>
+<a href="https://kevenandsoki.github.io/music" class="button button1">music</a>
+   
+<button class="button button1">music</button>
     
-<img src="/homeused.png">
+<button class="button disabled">home</button>
     
-<a href="https://kevenandsoki.github.io/games" style="text-decoration: none;" >
-  <img src="/games.png">
-</a></p>
+<button class="button button1">soki</button>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
+}
+.button {
+  background-color: #555555; 
+  color: #09c8e3;
+  border: 2px solid #555555;
+  border: none;
+  color: #09c8e3;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #555555; 
+  color: #09c8e3;
+  border: 2px solid #555555;
+}
+.button1:hover {
+  background-color: #888888;
+  color: #09c8e3;
+}
+.disabled {
+  cursor: not-allowed;
 }
 #rounded {
   border-radius: 25px;
