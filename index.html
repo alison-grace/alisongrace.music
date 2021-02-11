@@ -85,9 +85,56 @@ h1, p, a.a {
 a.a{
   color: #09c8e3;
 }
-</style></head><body>
-<div class="column" style="background-color:#555555;"><br>
-<div class="minicolumn" style="background-color:#6F6F6F;"><br>
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+</style></head><body></p>
+<br><br><br><br>
+<div class="column fade-in" style="background-color:#555555;"><br>
+<div class="minicolumn fade-in" style="background-color:#6F6F6F;"><br>
     
 <h1 style="font-size:32px;">hello.</h1><p class="a">
 
@@ -99,7 +146,7 @@ i'm open for any sort of work that lines up with what type of music i do, that b
 
 <br><br>
 
-<br><br></div class="minicolumn"><b>
+<br><br></div class="minicolumn fade-in"><b>
 <a href="https://twitter.com/kevenandsoki" style="text-decoration: none;" class="a">my twitter      </a>
 <a href="https://www.youtube.com/channel/UCjSmdRC_WyZKWcprMH5kZUg" style="text-decoration: none;" class="a">my youtube channel      </a>
 <span title="for business purposes or problems. YEAH. THAT'S RIGHT. FANCY TEXT BABY, HOVER FANCY TEXT UP IN THIS HOUSEHELD HOME">
