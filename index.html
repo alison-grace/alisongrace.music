@@ -65,6 +65,9 @@ body {
   background-size: auto;
   background-position: center; 
 }
+body:not(.loaded) #slider img {
+  display:none;
+}
 .column {
   margin: auto;
   width: 675px;
@@ -147,7 +150,9 @@ i'm open for any sort of work that lines up with what type of music i do.
 
 <br><br>
 
-<br><br></div class="minicolumn fade-in"><b>
+<br><br>
+<body onload="document.body.classList.add('loaded')">
+</div class="minicolumn fade-in"><b>
 <a href="https://twitter.com/kevenandsoki" style="text-decoration: none;" class="a">twitter</a>
 <a href="https://kevenandsoki.bandcamp.com/" style="text-decoration: none;" class="a">bandcamp</a>
 <a href="https://www.youtube.com/channel/UCjSmdRC_WyZKWcprMH5kZUg" style="text-decoration: none;" class="a">youtube</a>
