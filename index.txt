@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>kevenandsoki (home)</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/k%20fav.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/k%20fav.png">
+
+<meta property="og:title" content="kevenandsoki (home)">
+<meta property="og:description" content="welcome to my site!">
+<meta property="og:image" content="/k%20fav.png">
+<meta property="og:url" content="http://kevenandsoki.github.io"> 
+   
+<center>
+<p style=background-color:#6F6F6F id="rounded">
+
+<img src="/pic_kevenandsoki.png">
+
+<a href="https://kevenandsoki.github.io/music" class="button button1">music</a>
+    
+<a href="" class="button button1">home</a>
+    
+<a href="https://kevenandsoki.github.io/me" class="button button1">soki</a>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.button {
+  background-color: #555555; 
+  color: #bcd0f4;
+  border: 2px solid #555555;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  bottom: 24px;
+}
+.button1 {
+  background-color: #555555; 
+  color: #bcd0f4;
+  border: 2px solid #555555;
+}
+.button1:hover {
+  background-color: #888888;
+  color: #bcd0f4;
+}
+.disabled {
+  cursor: not-allowed;
+}
+#rounded {
+  border-radius: 25px;
+}
+head, body {
+  background: url('moonglow.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "font-family: "ＭＳ Ｐゴシック";
+  color: #FFFFFF
+  font-size: 150%
+}
+.column {
+  margin: auto;
+  width: 675px;
+  outline: 2px solid #FFB500;
+}
+#updates {
+  text-align: center;
+}
+a.a{
+  color: #bcd0f4;
+}
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+</style></head></p>
+<br><br><br><br>
+<div class="column fade-in" style="background-color:#192142;"><br>
+
+<p class="a"><br><left>
+hi, i'm keven. i'm a composer,<br> 
+inspired by chiptune vgm and jazz,<br>
+who specializes in digital-fusion.<br>
+</div class="column fade-in"><b><p></left>
+
+<span title="best way to reach me!">
+<a href="https://twitter.com/kevenandsoki" style="text-decoration: none;" class="a">twitter</a></span>
+<a href="https://kevenandsoki.bandcamp.com/" style="text-decoration: none;" class="a">bandcamp</a>
+<a href="https://www.youtube.com/channel/UCjSmdRC_WyZKWcprMH5kZUg" style="text-decoration: none;" class="a">youtube</a>
+<br><br></center></font>
+</body>
+</html>

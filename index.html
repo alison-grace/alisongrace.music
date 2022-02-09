@@ -3,80 +3,103 @@
 <head>
 
 <title>kevenandsoki (home)</title>
-<link rel="icon" type="image/png" sizes="32x32" href="/k%20fav.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/k%20fav.png">
+<link rel="icon" href="csmissiles.ico">
 
 <meta property="og:title" content="kevenandsoki (home)">
 <meta property="og:description" content="welcome to my site!">
-<meta property="og:image" content="/k%20fav.png">
+<meta property="og:image" content="csmissiles.ico">
 <meta property="og:url" content="http://kevenandsoki.github.io"> 
    
 <center>
-<p style=background-color:#6F6F6F id="rounded">
 
-<img src="/pic_kevenandsoki.png">
+<img src="kevenandsoki_logo.png" style="position:absolute;left:29%;top:2.5%;">
 
+<div class="topheader" style="background-color:#192142;">
 <a href="https://kevenandsoki.github.io/music" class="button button1">music</a>
-    
 <a href="" class="button button1">home</a>
-    
 <a href="https://kevenandsoki.github.io/me" class="button button1">soki</a>
+<meta name="viewport" content="width=device-width, initial-scale=1"></p>
+</div class="topheader">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<video id="background-video" autoplay loop muted poster="moonglow.png">
+  <source src="moonglow.mp4" type="video/mp4">
+</video>
+
 <style>
 * {
   box-sizing: border-box;
 }
 .button {
-  background-color: #555555; 
-  color: #bcd0f4;
-  border: 2px solid #555555;
-  padding: 16px 32px;
+  background-color: #262D42;
+  color: #FFFFFF; 
+  border: 2px solid #C8D2E4;
+  padding: 10px 18px;
   text-align: center;
   text-decoration: none;
   display: inline;
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 4px;
   position: relative;
-  bottom: 24px;
+  top: 9px;
 }
 .button1 {
-  background-color: #555555; 
-  color: #bcd0f4;
-  border: 2px solid #555555;
+  opacity: 0.7;
 }
 .button1:hover {
-  background-color: #888888;
-  color: #bcd0f4;
+  opacity: 1;
 }
-.disabled {
-  cursor: not-allowed;
+#textbox {
+  margin: 1%;
+  outline: 2px solid #FFB500;
 }
-#rounded {
-  border-radius: 25px;
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 head, body {
-  background: url('moonglow.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: "font-family: "ＭＳ Ｐゴシック";
-  color: #FFFFFF
-  font-size: 150%
+  font-family: "courier";
+/*font-family: "ＭＳ Ｐゴシック";*/
+  color: #FFFFFF;
+  font-size: 140%;
+}
+img { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 .column {
   margin: auto;
-  width: 675px;
+  width: 39%;
   outline: 2px solid #FFB500;
 }
-#updates {
-  text-align: center;
+.topheader {
+  width: 20%;
+  outline: 2px solid #FFB500;
+  padding: 6px;
+  position:absolute;right:29%;
 }
-a.a{
-  color: #bcd0f4;
+.portrait {
+  text-align: left;
+  left: 20px;
+  position:relative;
 }
 .fade-in {
   animation: fadeIn ease 1s;
@@ -84,6 +107,24 @@ a.a{
   -moz-animation: fadeIn ease 1s;
   -o-animation: fadeIn ease 1s;
   -ms-animation: fadeIn ease 1s;
+}
+.hudfont{
+  font-family: 'Cave-Story';
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 24px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.hudfonthl{
+  opacity: 70%
+}
+.hudfonthl:hover {
+  opacity: 100%
+}
+@font-face {
+    font-family: 'Cave-Story';
+    src: url('nesfont.woff');
 }
 @keyframes fadeIn {
   0% {
@@ -125,19 +166,27 @@ a.a{
     opacity:1;
 }
 </style></head></p>
-<br><br><br><br>
-<div class="column fade-in" style="background-color:#192142;"><br>
+<br><br><br><br><br><br><br>
 
-<p class="a"><br><left>
-hi, i'm keven. i'm a composer,<br> 
-inspired by chiptune vgm and jazz,<br>
-who specializes in digital-fusion.<br>
-</div class="column fade-in"><b><p></left>
+<div class="column fade-in" style="background-color:#192142;">
+<p class="portrait">
+<img src="keven.png" style="width:96px;height:96px;margin-right:2.5%;margin-top:2%;float:left;"><br>
+hi, i'm keven. i'm a composer,<br>
+inspired by chiptune and VGM,<br>
+with a wide range of genres.<br><br></p>
+</div class="column fade-in">
+<div class="column fade-in" style="background-color:#192142;">
+<p class="portrait"><br>
+above are some examples of my works as<br>
+well as some info about me.<br><br></p>
+</div class="column fade-in">
 
 <span title="best way to reach me!">
-<a href="https://twitter.com/kevenandsoki" style="text-decoration: none;" class="a">twitter</a></span>
-<a href="https://kevenandsoki.bandcamp.com/" style="text-decoration: none;" class="a">bandcamp</a>
-<a href="https://www.youtube.com/channel/UCjSmdRC_WyZKWcprMH5kZUg" style="text-decoration: none;" class="a">youtube</a>
+<a href="https://twitter.com/kevenandsoki" style="text-decoration: none;font-size: 16px" class="hudfont hudfonthl">--TWITTER--</a></span>
+
+<a href="https://kevenandsoki.bandcamp.com/" style="text-decoration: none;font-size: 16px" class="hudfont hudfonthl">--BANDCAMP--</a>
+
+<a href="https://www.youtube.com/channel/UCjSmdRC_WyZKWcprMH5kZUg" style="text-decoration: none;font-size: 16px" class="hudfont hudfonthl">--YOUTUBE--</a>
 <br><br></center></font>
 </body>
 </html>
