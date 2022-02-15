@@ -44,7 +44,7 @@ head, body {
   font-family: 'Courier New', monospace;
 /*font-family: "ＭＳ Ｐゴシック";*/
   color: #FFFFFF;
-  font-size: 120%;
+  font-size: 100%;
   -webkit-text-size-adjust: none;
 }
 table {
