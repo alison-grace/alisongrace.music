@@ -47,6 +47,9 @@ head, body {
   font-size: 100%;
   -webkit-text-size-adjust: none;
 }
+a, a:visited {
+    color: inherit;
+}
 table {
   border-collapse: collapse;
   width: 100%;
