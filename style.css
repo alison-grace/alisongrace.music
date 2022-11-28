@@ -107,7 +107,7 @@ tr:nth-child(odd) {background-color: #192142;}
 
 @font-face {
     font-family: 'Cave-Story';
-    src: url('nesfont.woff');
+    src: url('/files/nesfont.woff');
 }
 @keyframes fadeIn {
   0% {
@@ -147,4 +147,5 @@ tr:nth-child(odd) {background-color: #192142;}
   }
   100% {
     opacity:1;
+  }
 }
