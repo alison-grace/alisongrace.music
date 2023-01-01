@@ -1,9 +1,16 @@
+import Head from 'next/head';
 import TextBox from '../../components/TextBox';
 import styles from './styles.module.scss';
 
 export default function Soki() {
 	return (
 		<>
+			<Head>
+				<title>kevenandsoki (soki)</title>
+				<meta property="og:title" content="kevenandsoki (soki)" />
+				<meta property="og:description" content="some info about me, and my musical background." />
+			</Head>
+
 			<div className={styles.sokiContainer}>
 				<TextBox big>
 					<p>

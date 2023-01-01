@@ -26,13 +26,14 @@ export default function Page({ children }) {
 	return (
 		<div className={styles.page}>
 			<Head>
-				<title>kevenandsoki (home)</title>
+				<title>kevenandsoki</title>
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta property="og:title" content="kevenandsoki (home)" />
+				<meta property="og:title" content="kevenandsoki" />
 				<meta property="og:description" content="welcome to my site!" />
-				<meta property="og:image" content="/csmissiles.ico" />
-				<meta property="og:url" content="https://kevenandsoki.com" />
+				<meta property="og:image" content="/favicon.ico" />
+
+				<base target="_blank" />
 			</Head>
 
 			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-2HW5F6LBL0"></Script>

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import MusicListing from '../../components/MusicListing';
 import TextBox from '../../components/TextBox';
 import styles from './styles.module.scss';
@@ -5,13 +6,19 @@ import styles from './styles.module.scss';
 export default function Music() {
 	return (
 		<>
+			<Head>
+				<title>kevenandsoki (music)</title>
+				<meta property="og:title" content="kevenandsoki (music)" />
+				<meta property="og:description" content="portfolio examples of what i do best." />
+			</Head>
+
 			<TextBox>
 				below are numerous works of mine, both originals and covers, that reflect what i do best.
 			</TextBox>
 
 			<div className={styles.musicList}>
 				<MusicListing
-					label="Sub Battle - Bahamut Lagoon"
+					label="Sub Battle - Bahamut Lagoon (Arrange)"
 					url="/music/sub_battle_-_bahamut_lagoon.mp3"
 					date="09/22/22"
 				/>
@@ -39,7 +46,7 @@ export default function Music() {
 				/>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=nAGMtYB0B9k">Wily Stage 1/2 - Mega Man 2</a>
+						<a href="https://www.youtube.com/watch?v=nAGMtYB0B9k">Wily Stage 1/2 - Mega Man 2 (Arrange)</a>
 					}
 					url="/music/wily_stage_1_-_mm2_(arrange).mp3"
 					date="08/03/22"
@@ -57,13 +64,13 @@ export default function Music() {
 					date="06/18/22"
 				/>
 				<MusicListing
-					label="Lake - Pokémon DPPt"
+					label="Lake - Pokémon DPPt (Arrange)"
 					url="/music/lake_-_pkmn_dppt.mp3"
 					date="04/01/22"
 				/>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=FLJYgQvvJ1E">Windmill Isle (Day) - Sonic Unleashed</a>
+						<a href="https://www.youtube.com/watch?v=FLJYgQvvJ1E">Windmill Isle (Day) - Sonic Unleashed (Arrange)</a>
 					}
 					url="/music/windmill_isle_-_sonic_unleashed_(arrange).mp3"
 					date="10/09/21"
@@ -96,7 +103,7 @@ export default function Music() {
 					date="05/01/21"
 				/>
 				<MusicListing
-					label="encounter! (snes)"
+					label="encounter! (SNES)"
 					url="/music/encounter.mp3"
 					date="02/05/21"
 				/>
