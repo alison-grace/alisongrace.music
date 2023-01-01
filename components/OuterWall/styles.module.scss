@@ -62,10 +62,10 @@ $parallax-duration: 9.6s;
 
 @keyframes parallax {
 	from {
-		background-position-x: 0;
+		transform: translateX(0);
 	}
 
 	to {
-		background-position-x: -100vh * math.div($width, $height);
+		transform: translateX(-100vh * math.div($width, $height));
 	}
 }
