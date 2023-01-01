@@ -1,0 +1,71 @@
+@use 'sass:math';
+
+// The width and height of the cloud images.
+$width: 320;
+$height: 240;
+
+.outerWall {
+	position: fixed;
+	z-index: -10;
+	pointer-events: none;
+	image-rendering: pixelated;
+
+	width: 200%;
+
+	background-image: url('/assets/outer_wall/background.png');
+	background-size: cover;
+
+	&, & > * {
+		left: 0;
+		top: 0;
+
+		height: 100%;
+
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: repeat-x;
+	}
+
+	& > * {
+		position: absolute;
+		width: 100%;
+
+		background-size: auto 100%;
+
+		animation-name: parallax;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+}
+
+$parallax-duration: 9.6s;
+
+.cloud1 {
+	background-image: url('/assets/outer_wall/cloud_1.png');
+	animation-duration: $parallax-duration;
+}
+
+.cloud2 {
+	background-image: url('/assets/outer_wall/cloud_2.png');
+	animation-duration: math.div($parallax-duration, 2);
+}
+
+.cloud3 {
+	background-image: url('/assets/outer_wall/cloud_3.png');
+	animation-duration: math.div($parallax-duration, 4);
+}
+
+.cloud4 {
+	background-image: url('/assets/outer_wall/cloud_4.png');
+	animation-duration: math.div($parallax-duration, 8);
+}
+
+@keyframes parallax {
+	from {
+		background-position-x: 0;
+	}
+
+	to {
+		background-position-x: -100vh * math.div($width, $height);
+	}
+}

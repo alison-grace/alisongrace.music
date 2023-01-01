@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../Header';
 import Footer from '../Footer';
+import OuterWall from '../OuterWall';
 import styles from './styles.module.scss';
 import fadeInStyles from '../../styles/fade_in.module.scss';
 import { useRouter } from 'next/router';
@@ -38,14 +39,8 @@ export default function Page({ children }) {
 
 			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-2HW5F6LBL0"></Script>
 
-			<video
-				className={styles.backgroundVideo}
-				src="/assets/outer_wall.mp4"
-				poster="/assets/outer_wall.png"
-				muted
-				loop
-				autoPlay
-			/>
+			<OuterWall />
+
 			<Header />
 			<main
 				key={`main_${router.asPath}`}
