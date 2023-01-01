@@ -1,0 +1,32 @@
+.musicListing {
+	margin: 8px;
+
+	$border: 2px solid rgba(200, 210, 228, 0.3);
+	border: $border;
+	background-color: rgba(25, 33, 66, 0.3);
+
+	text-align: left;
+
+	&Heading {
+		display: flex;
+		border-bottom: $border;
+
+		& > * {
+			padding: 8px;
+		}
+	}
+
+	&Label {
+		flex-grow: 1;
+		border-right: $border;
+	}
+
+	&Content {
+		display: flex;
+		padding: 8px;
+
+		audio {
+			flex-grow: 1;
+		}
+	}
+}

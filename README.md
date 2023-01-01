@@ -1,2 +1,2 @@
-# kevenandsoki.github.io
+# kevenandsoki.com
 welcome, to kevenandsoki. THIS IS, kevenandsoki.

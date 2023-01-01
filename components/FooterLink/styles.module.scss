@@ -1,0 +1,25 @@
+.footerLink {
+	font-family: 'NES';
+
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+	margin: 0 0.5ch;
+
+	transition: opacity 0.4s;
+	opacity: 0.7;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	&::before, &::after {
+		content: '-';
+	}
+}
+
+@font-face {
+	font-family: 'NES';
+	src: url('/assets/nes.woff');
+}

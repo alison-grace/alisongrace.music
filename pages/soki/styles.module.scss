@@ -1,0 +1,23 @@
+.sokiContainer {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 100%;
+
+	position: relative;
+}
+
+.kasSittingImage {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+
+	opacity: 1;
+	transition: opacity 0.4s;
+
+	@media screen and (max-width: 1000px) {
+		opacity: 0;
+	}
+}
