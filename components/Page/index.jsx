@@ -65,7 +65,7 @@ export default function Page({ children }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta property="og:title" content="kevenandsoki" />
 				<meta property="og:description" content="welcome to my site!" />
-				<meta property="og:image" content="/favicon.ico" />
+				<meta property="og:image" content="/assets/keven_portrait.png" />
 
 				<base target="_blank" />
 			</Head>
