@@ -5,7 +5,7 @@ import OuterWall from '../OuterWall';
 import styles from './styles.module.scss';
 import fadeInStyles from '../../styles/fade_in.module.scss';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Script from 'next/script';
 import classNames from 'classnames';
 
@@ -22,6 +22,39 @@ export default function Page({ children }) {
 
 	useEffect(() => {
 		loadAnalytics();
+	}, []);
+
+	const mainRef = useRef();
+
+	useEffect(() => {
+		let animationFrame;
+
+		function centerMain() {
+			animationFrame = requestAnimationFrame(centerMain);
+
+			const main = mainRef.current;
+			const mainRect = main.getBoundingClientRect();
+
+			const center = window.innerHeight / 2;
+			const centeredTop = center - mainRect.height / 2;
+			const offsetTop = window.scrollY + mainRect.top;
+			const differenceToCenteredTop = centeredTop - offsetTop;
+
+			const previousMarginTop = +main.style.marginTop.slice(0, -2);
+			const marginTop = Math.max(0, previousMarginTop + differenceToCenteredTop);
+
+			if (marginTop === previousMarginTop) {
+				return;
+			}
+
+			main.style.marginTop = `${marginTop}px`;
+		}
+
+		centerMain();
+
+		return () => {
+			cancelAnimationFrame(animationFrame);
+		};
 	}, []);
 
 	return (
@@ -45,6 +78,7 @@ export default function Page({ children }) {
 			<main
 				key={`main_${router.asPath}`}
 				className={classNames(styles.main, fadeInStyles.fadeIn)}
+				ref={mainRef}
 			>
 				{children}
 			</main>
