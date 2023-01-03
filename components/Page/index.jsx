@@ -63,9 +63,10 @@ export default function Page({ children }) {
 				<title>kevenandsoki</title>
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta property="og:title" content="kevenandsoki" />
+				<meta property="og:title" content="kevenandsoki.com" />
 				<meta property="og:description" content="welcome to my site!" />
 				<meta property="og:image" content="/assets/keven_portrait.png" />
+				<meta name="theme-color" content="#6f9cd6" />
 
 				<base target="_blank" />
 			</Head>
