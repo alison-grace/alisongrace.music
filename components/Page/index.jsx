@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useRef } from 'react';
 import Script from 'next/script';
 import classNames from 'classnames';
+import useIsomorphicLayoutEffect from 'use-isomorphic-layout-effect';
 
 function loadAnalytics() {
 	window.dataLayer = window.dataLayer || [];
@@ -26,7 +27,7 @@ export default function Page({ children }) {
 
 	const mainRef = useRef();
 
-	useEffect(() => {
+	useIsomorphicLayoutEffect(() => {
 		let animationFrame;
 
 		function centerMain() {
