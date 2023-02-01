@@ -18,6 +18,13 @@ export default function Music() {
 
 			<div className={styles.musicList}>
 				<MusicListing
+					label={
+						<a href="https://www.youtube.com/watch?v=knH_6sSfFMY">fighting in harmony</a>
+					}
+					url="/music/fighting_in_harmony.wav"
+					date="1/22/23"
+				/>
+				<MusicListing
 					label="Sub Battle - Bahamut Lagoon (Arrange)"
 					url="/music/sub_battle_-_bahamut_lagoon.mp3"
 					date="09/22/22"
