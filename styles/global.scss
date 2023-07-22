@@ -1,3 +1,5 @@
+@use './variables.scss' as *;
+
 body {
 	background-color: #000000;
 	color: #ffffff;
@@ -8,4 +10,11 @@ body {
 
 :any-link {
 	color: #ffffff;
+}
+
+video {
+	box-sizing: border-box;
+	border: $border;
+	width: 100%;
+	vertical-align: bottom;
 }

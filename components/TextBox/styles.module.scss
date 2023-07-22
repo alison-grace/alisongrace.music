@@ -1,3 +1,5 @@
+@use '../../styles/variables.scss' as *;
+
 .textBox {
 	background-color: #192142;
 	border: 2px solid #ffb500;
@@ -27,6 +29,11 @@
 		line-height: 1.4;
 	}
 
+	&.subtle {
+		border: $border;
+		background-color: $background-color;
+	}
+
 	// The below is to work around a rendering issue in Firefox where golden vertical lines will appear in the background due to the border image.
 
 	position: relative;
@@ -41,6 +48,10 @@
 		height: calc(100% - 2px);
 		background-color: inherit;
 		z-index: -1;
+	}
+
+	& > video {
+		margin: 12px 0;
 	}
 }
 

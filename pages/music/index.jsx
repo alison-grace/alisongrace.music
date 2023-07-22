@@ -2,6 +2,7 @@ import Head from 'next/head';
 import MusicListing from '../../components/MusicListing';
 import TextBox from '../../components/TextBox';
 import styles from './styles.module.scss';
+import Columns from '../../components/Columns';
 
 export default function Music() {
 	return (
@@ -12,17 +13,69 @@ export default function Music() {
 				<meta property="og:description" content="portfolio examples of what i do best." />
 			</Head>
 
-			<TextBox>
-				below are numerous works of mine, both originals and covers, that reflect what i do best.
+			{/* The style is there because the misalignment of the tops and bottoms
+			    of each column look like poopoo dog doodoo without it. */}
+			<Columns style={{ alignItems: 'center' }}>
+				<TextBox big>
+					<p>
+						my commissions are open! i'm open to write music for games, streams, or most multimedia.
+					</p>
+					<p>
+						my pricing is <b>$15/minute</b> of music. i'm not very stingy with the exact times, but generally pay will be for whichever minute the total length of the commissioned track(s) is closest to.
+					</p>
+					<p>
+						here is a reel of recent compositions i'm most proud of:
+					</p>
+				</TextBox>
+				<TextBox big subtle>
+					<video
+						src="/assets/kas_reel.webm"
+						poster="/assets/kas_reel_thumbnail.png"
+						controls
+					/>
+				</TextBox>
+			</Columns>
+
+			<TextBox big>
+				<p>
+					below are some more works of mine from over the years, both originals and covers.
+				</p>
 			</TextBox>
 
 			<div className={styles.musicList}>
 				<MusicListing
+					label="Strengthened By Hope (demo)"
+					url="/music/strengthened_by_hope.mp3"
+					date="06/13/23"
+				/>
+				<MusicListing
+					label="Fated Bond"
+					url="/music/fated_bond.mp3"
+					date="04/25/23"
+				/>
+				<MusicListing
+					label="the silly march"
+					url="/music/the_silly_march.mp3"
+					date="03/27/23"
+				/>
+				<MusicListing
+					label={
+						<a href="https://www.youtube.com/watch?v=aOj4jtZp8rQ">M.Z.M.B.C - FΛDE (Fusion Cover)</a>
+					}
+					url="/music/mzmbc_-_fade.mp3"
+					date="03/17/23"
+				/>
+				<MusicListing
+					label="Red Alert - Metal Gear (MSX, Arrange)"
+					url="/music/red_alert_-_metal_gear_msx.mp3"
+					date="02/13/23"
+				/>
+				<MusicListing
 					label={
 						<a href="https://www.youtube.com/watch?v=knH_6sSfFMY">fighting in harmony</a>
 					}
-					url="/music/fighting_in_harmony.wav"
-					date="1/22/23"
+					url="/music/fighting_in_harmony.mp3"
+					date="01/22/23"
 				/>
 				<MusicListing
 					label="Sub Battle - Bahamut Lagoon (Arrange)"
@@ -150,7 +203,7 @@ export default function Music() {
 					label={
 						<a href="https://www.youtube.com/watch?v=ZB-9H-o7QQo">lost humanity</a>
 					}
-					url="/music/lost_humanity.wav"
+					url="/music/lost_humanity.mp3"
 					date="10/30/20"
 				/>
 			</div>

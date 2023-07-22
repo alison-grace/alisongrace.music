@@ -1,9 +1,10 @@
+@use '../../styles/variables.scss' as *;
+
 .musicListing {
 	margin: 8px;
 
-	$border: 2px solid rgba(200, 210, 228, 0.3);
 	border: $border;
-	background-color: rgba(25, 33, 66, 0.3);
+	background-color: $background-color;
 
 	text-align: left;
 

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import TextBox from '../../components/TextBox';
 import styles from './styles.module.scss';
+import Columns from '../../components/Columns';
 
 export default function Soki() {
 	return (
@@ -11,7 +12,7 @@ export default function Soki() {
 				<meta property="og:description" content="some info about me, and my musical background." />
 			</Head>
 
-			<div className={styles.sokiContainer}>
+			<Columns>
 				<TextBox big>
 					<p>
 						as i said before, i'm keven. hi! i'm a 17 year old student in high school, graduating in 2023.
@@ -36,7 +37,7 @@ export default function Soki() {
 						i use FL Studio 12 as my main DAW, although i'll occassionally use LSDJ or Famitracker to utilize a specific soundchip. i am also familiar with Logic and Ableton. i also try to use my little collection of real instruments whenever i can such as my bass, electric guitar, acoustic guitar, and some small percussion instuments.
 					</p>
 				</TextBox>
-			</div>
+			</Columns>
 			<img
 				className={styles.kasSittingImage}
 				src="/assets/kas_sitting.png"

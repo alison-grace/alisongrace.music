@@ -1,3 +1,5 @@
+@use '../../styles/variables.scss' as *;
+
 .musicList {
 	display: flex;
 	flex-direction: column;
