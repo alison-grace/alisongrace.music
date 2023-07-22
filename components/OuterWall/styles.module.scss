@@ -42,7 +42,7 @@ $scale: 3px;
 	}
 }
 
-$parallax-duration: 9.6s;
+$parallax-duration: 9.6s * 1.5;
 
 .cloud1 {
 	background-image: url('/assets/outer_wall/cloud_1.png');
