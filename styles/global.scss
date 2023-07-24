@@ -12,9 +12,17 @@ body {
 	color: #ffffff;
 }
 
-video {
+// video {
+// 	box-sizing: border-box;
+// 	border: $border;
+// 	width: 100%;
+// 	vertical-align: bottom;
+// }
+
+iframe {
 	box-sizing: border-box;
 	border: $border;
-	width: 100%;
+	width: 434px;
+	height: 245px;
 	vertical-align: bottom;
 }

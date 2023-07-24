@@ -27,12 +27,17 @@ export default function Music() {
 						here is a reel of recent compositions i'm most proud of:
 					</p>
 				</TextBox>
-				<TextBox big subtle>
+				{/* <TextBox big subtle>
 					<video
 						src="/assets/kas_reel.webm"
 						poster="/assets/kas_reel_thumbnail.png"
 						controls
 					/>
+				</TextBox> */}
+				<TextBox big subtle>
+					<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/RYDr6XYo6l4?autoplay=1&origin=http://kevenandsoki.com/music"
+  frameborder="0"></iframe>
 				</TextBox>
 			</Columns>
 
