@@ -28,7 +28,7 @@ export default function Music() {
 					</p>
 				</TextBox>
 				<TextBox big subtle>
-					<iframe src="https://www.youtube.com/embed/RYDr6XYo6l4?autoplay=1" />
+					<iframe src="https://www.youtube.com/embed/RYDr6XYo6l4" />
 				</TextBox>
 			</Columns>
 
