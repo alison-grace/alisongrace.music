@@ -21,10 +21,17 @@ export default function Music() {
 						my commissions are open! i'm open to write music for games, streams, or most multimedia.
 					</p>
 					<p>
-						my pricing is <b>$20/minute</b> of music. i'm not very stingy with the exact times, but generally pay will be for whichever minute the total length of the commissioned track(s) is closest to.
+						my pricing is <b>$20/minute</b> of music.
 					</p>
 					<p>
-						here is a reel of recent compositions i'm most proud of:
+						<a href="https://vgen.co/kevenandsoki">for individual commissions, send your requests through VGen!</a>
+					</p>
+					<p>
+						if you're interested in hiring me as a composer for a game or project, please contact me personally to discuss details:
+					</p>
+					<p>
+						discord, <a href="https://twitter.com/kevenandsoki">twitter</a>: kevenandsoki <br/>
+						email: <a href="mailto:keven@kevenandsoki.com">keven@kevenandsoki.com</a>
 					</p>
 				</TextBox>
 				<TextBox big subtle>
