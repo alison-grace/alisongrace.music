@@ -21,7 +21,7 @@ export default function Music() {
 						my commissions are open! i'm open to write music for games, streams, or most multimedia.
 					</p>
 					<p>
-						my pricing is <b>$15/minute</b> of music. i'm not very stingy with the exact times, but generally pay will be for whichever minute the total length of the commissioned track(s) is closest to.
+						my pricing is <b>$20/minute</b> of music. i'm not very stingy with the exact times, but generally pay will be for whichever minute the total length of the commissioned track(s) is closest to.
 					</p>
 					<p>
 						here is a reel of recent compositions i'm most proud of:
