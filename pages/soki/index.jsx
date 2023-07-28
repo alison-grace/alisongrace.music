@@ -15,7 +15,7 @@ export default function Soki() {
 			<Columns>
 				<TextBox big>
 					<p>
-						as i said before, i'm keven. hi! i'm a 17 year old student in high school, graduating in 2023.
+						as i said before, i'm keven. hi! i'm an 17 year old entering college, graduating in 2027.
 					</p>
 					<p>
 						i grew up with and always loved video games, and their music. most of my childhood was spent either playing games, or trying to make my own games. i was never very successful in making them, but the one thing i loved the most was making music for my games.
