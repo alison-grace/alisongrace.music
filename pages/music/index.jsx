@@ -47,6 +47,13 @@ export default function Music() {
 
 			<div className={styles.musicList}>
 				<MusicListing
+					label={
+						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Cover)</a>
+					}
+					url="/music/sinister_sundown_-_kingdom_hearts_ii.mp3"
+					date="07/26/23"
+				/>
+				<MusicListing
 					label="Strengthened By Hope (demo)"
 					url="/music/strengthened_by_hope.mp3"
 					date="06/13/23"
