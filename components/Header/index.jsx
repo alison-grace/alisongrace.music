@@ -13,7 +13,7 @@ export default function Header() {
 			<nav className={styles.nav}>
 				<NavLink href="/music">Music</NavLink>
 				<NavLink href="/">Home</NavLink>
-				<NavLink href="/soki">Soki</NavLink>
+				<NavLink href="/about">About</NavLink>
 			</nav>
 
 		</header>
