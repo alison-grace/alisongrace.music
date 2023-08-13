@@ -18,15 +18,15 @@ export default function About() {
 						as i said before, i'm keven. hi! i'm an 18 year old entering college, graduating in 2027.
 					</p>
 					<p>
-						i grew up with and always loved video games, especially their music. most of my childhood was spent either playing games, or trying to make my own. i was never very engaged in the game designing process, but the one thing i loved most and easily spent the most time on was creating soundtracks for my games.
+						i grew up with and always loved video games, especially their music. most of my childhood was spent either playing games, or trying to make my own. i never managed to complete one, but i always loved creating soundtracks them.
 					</p>
 					<p>
-						even though my music when i was 12 wasn't very great, i never quit. i was greatly inspired by indie musicians like{' '}
+						vgm composers like{' '}
 						<a href="https://en.wikipedia.org/wiki/Daisuke_Amaya">Daisuke "Pixel" Amaya</a>{' '}
 						<i>(<a href="https://www.cavestory.org/">Cave Story</a>)</i>{' '}
 						and{' '}
 						<a href="https://en.wikipedia.org/wiki/Toby_Fox">Toby Fox</a>{' '}
-						<i>(<a href="https://www.undertale.com/">UNDERTALE</a>)</i>, who started out making music with unprofessional or free tools, and made amazing soundtracks and games with them. i thought from them, that i could too, if i just gave it my all.
+						<i>(<a href="https://www.undertale.com/">UNDERTALE</a>)</i> inspired me to never give up doing what i love. despite not having the most professional or industry-standard tools, they put out some of the most emotional, beautiful music i've heard; saying more in a few measures than some songs say in hundreds.
 					</p>
 					<p>
 						amazing musicians like them are the ones who taught me that tools don't make the composer.
@@ -34,7 +34,13 @@ export default function About() {
 				</TextBox>
 				<TextBox big>
 					<p>
-						i use FL Studio 21 as my main DAW, although i'll occassionally use LSDJ or Famitracker to utilize a specific soundchip's unique sound. i'm also familiar with Logic and Ableton. on top of a vast library of samples and digital plugins, i try to use my little collection of real instruments whenever i can. these include my electric bass, electric guitar, acoustic guitar, flute, melodica, and some percussive instuments.
+						since then, i've always aimed to perfect my craft, and gotten a formal training in both classical and jazz theory.
+					</p>
+					<p>
+						i use FL Studio 21 as my main DAW, although i'll occassionally use LSDJ or Famitracker to utilize a specific soundchip's unique sound. i'm also familiar with Logic and Ableton.
+					</p>
+					<p>
+						on top of a vast library of digital instruments, i try to use my collection of real instruments whenever i can. these include an electric bass, electric guitar, acoustic guitar, flute, melodica, and some percussive instuments.
 					</p>
 				</TextBox>
 			</Columns>
