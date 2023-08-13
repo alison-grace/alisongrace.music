@@ -34,7 +34,7 @@ export default function About() {
 				</TextBox>
 				<TextBox big>
 					<p>
-						since then, i've always aimed to perfect my craft, and gotten a formal training in both classical and jazz theory.
+						since then, i've pursued a formal training in both classical and jazz theory; and have aimed to perfect my craft.
 					</p>
 					<p>
 						i use FL Studio 21 as my main DAW, although i'll occassionally use LSDJ or Famitracker to utilize a specific soundchip's unique sound. i'm also familiar with Logic and Ableton.
