@@ -47,6 +47,11 @@ export default function Music() {
 
 			<div className={styles.musicList}>
 				<MusicListing
+					label="journal"
+					url="/music/journal.mp3"
+					date="10/02/23"
+				/>
+				<MusicListing
 					label={
 						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Cover)</a>
 					}
@@ -145,11 +150,11 @@ export default function Music() {
 					url="/music/windmill_isle_-_sonic_unleashed_(arrange).mp3"
 					date="10/09/21"
 				/>
-				<MusicListing
+				{/* <MusicListing
 					label="city lights"
 					url="/music/city_lights.mp3"
 					date="07/24/21"
-				/>
+				/> */}
 				<MusicListing
 					label={
 						<>Sunrays (for <a href="https://twitter.com/GambleputtyG">@GambleputtyG</a>)</>
