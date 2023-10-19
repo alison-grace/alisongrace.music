@@ -9,6 +9,7 @@ export default function Footer() {
 			<FooterLink href="mailto:keven@kevenandsoki.com">Email</FooterLink>
 			<FooterLink href="https://www.youtube.com/@kevenandsoki">YT</FooterLink>
 			<FooterLink href="https://vgen.co/kevenandsoki">VGen</FooterLink>
+			<FooterLink href="https://kevenandsoki.bandcamp.com">Bandcamp</FooterLink>
 			<FooterLink href="https://twitter.com/kevenandsoki">TWT</FooterLink>
 		</footer>
 	);

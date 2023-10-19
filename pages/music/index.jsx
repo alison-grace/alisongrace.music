@@ -17,8 +17,14 @@ export default function Music() {
 			    of each column look like poopoo dog doodoo without it. */}
 			<Columns style={{ alignItems: 'center' }}>
 				<TextBox big>
-					<p>
+					{/* <p>
 						my commissions are open! i'm open to write music for games, streams, or most multimedia.
+					</p> */}
+					<p>
+						my commissions are currently closed, but they're looking to open up sometime in November!
+					</p>
+					<p>
+						if you really want to reserve a spot, shoot me an email or twitter DM. i'll be open to write music for games, streams, or most multimedia.
 					</p>
 					<p>
 						my pricing is <b>$20/minute</b> of music.
