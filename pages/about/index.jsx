@@ -15,7 +15,7 @@ export default function About() {
 			<Columns>
 				<TextBox big>
 					<p>
-						as i said before, i'm keven. hi! i'm an 18 year old entering college, graduating in 2027.
+						as i said before, i'm keven. hi! i'm an 18 year old college student, graduating in 2027.
 					</p>
 					<p>
 						i grew up with and always loved video games, especially their music. most of my childhood was spent either playing games, or trying to make my own. i never managed to complete one, but i always loved creating soundtracks them.
