@@ -21,10 +21,7 @@ export default function Music() {
 						my commissions are open! i'm open to write music for games, streams, or most multimedia.
 					</p> */}
 					<p>
-						my commissions are currently closed, but they're looking to open up sometime in November!
-					</p>
-					<p>
-						if you really want to reserve a spot, shoot me an email or twitter DM. i'll be open to write music for games, streams, or most multimedia.
+						my commissions are <b>currently closed</b>, but i'm currently <b>accepting requests</b> for <b>work on games</b>!
 					</p>
 					<p>
 						my pricing is <b>$20/minute</b> of music.
@@ -33,11 +30,11 @@ export default function Music() {
 						<a href="https://vgen.co/kevenandsoki">for individual commissions, send your requests through VGen!</a>
 					</p>
 					<p>
-						if you're interested in hiring me as a composer for a game or project, please contact me personally to discuss details:
+						if you're interested in hiring me as a composer for a game or project, please <b>contact me personally</b> to discuss details:
 					</p>
 					<p>
-						discord, <a href="https://twitter.com/kevenandsoki">twitter</a>: kevenandsoki <br/>
-						email: <a href="mailto:keven@kevenandsoki.com">keven@kevenandsoki.com</a>
+						<b>discord</b>: kevenandsoki <br/>
+						<b>email:</b> <a href="mailto:keven@kevenandsoki.com">keven@kevenandsoki.com</a>
 					</p>
 				</TextBox>
 				<TextBox big subtle>
