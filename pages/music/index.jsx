@@ -50,11 +50,6 @@ export default function Music() {
 
 			<div className={styles.musicList}>
 				<MusicListing
-					label="journal"
-					url="/music/journal.mp3"
-					date="10/02/23"
-				/>
-				<MusicListing
 					label={
 						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Cover)</a>
 					}
@@ -70,11 +65,6 @@ export default function Music() {
 					label="Fated Bond"
 					url="/music/fated_bond.mp3"
 					date="04/25/23"
-				/>
-				<MusicListing
-					label="the silly march"
-					url="/music/the_silly_march.mp3"
-					date="03/27/23"
 				/>
 				<MusicListing
 					label={
@@ -99,11 +89,6 @@ export default function Music() {
 					label="Sub Battle - Bahamut Lagoon (Arrange)"
 					url="/music/sub_battle_-_bahamut_lagoon.mp3"
 					date="09/22/22"
-				/>
-				<MusicListing
-					label="stuck in a"
-					url="/music/stuck_in_a.mp3"
-					date="08/18/22"
 				/>
 				<MusicListing
 					label="hunch"
@@ -191,31 +176,9 @@ export default function Music() {
 					date="01/27/21"
 				/>
 				<MusicListing
-					label="team photon hideout"
-					url="/music/team_photon_hideout.mp3"
-					date="12/24/20"
-				/>
-				<MusicListing
-					label={
-						<a href="https://www.youtube.com/watch?v=d-SASCaYqcA">village of the forest</a>
-					}
-					url="/music/village_of_the_forest.mp3"
-					date="12/18/20"
-				/>
-				<MusicListing
-					label="soon to be"
-					url="/music/soon_to_be.mp3"
-					date="11/22/20"
-				/>
-				<MusicListing
 					label="consequence"
 					url="/music/consequence.mp3"
 					date="11/16/20"
-				/>
-				<MusicListing
-					label="soaked clothes"
-					url="/music/soaked_clothes.mp3"
-					date="11/01/20"
 				/>
 				<MusicListing
 					label={
