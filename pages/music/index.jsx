@@ -58,7 +58,7 @@ export default function Music() {
 				/>
 				<MusicListing
 					label="Strengthened By Hope (demo)"
-					url="/music/strengthened_by_hope.mp3"
+					url="/music/strengthened_by_hope_(demo).mp3"
 					date="06/13/23"
 				/>
 				<MusicListing
@@ -78,21 +78,21 @@ export default function Music() {
 					url="/music/red_alert_-_metal_gear_msx.mp3"
 					date="02/13/23"
 				/>
-				<MusicListing
+				{/* <MusicListing
 					label={
 						<a href="https://www.youtube.com/watch?v=knH_6sSfFMY">fighting in harmony</a>
 					}
 					url="/music/fighting_in_harmony.mp3"
 					date="01/22/23"
-				/>
+				/> */}
 				<MusicListing
-					label="Sub Battle - Bahamut Lagoon (Arrange)"
+					label="Sub Battle - Bahamut Lagoon (Cover)"
 					url="/music/sub_battle_-_bahamut_lagoon.mp3"
 					date="09/22/22"
 				/>
 				<MusicListing
-					label="hunch"
-					url="/music/hunch.mp3"
+					label="hunch (demo)"
+					url="/music/hunch_(demo).mp3"
 					date="08/10/22"
 				/>
 				<MusicListing
@@ -102,7 +102,7 @@ export default function Music() {
 				/>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=KjoB68bgrMc">to your roots</a>
+						<a href="https://www.youtube.com/watch?v=KjoB68bgrMc">to your roots (2000s JRPG-inspired battle theme)</a>
 					}
 					url="/music/to_your_roots.mp3"
 					date="08/10/22"
@@ -142,36 +142,36 @@ export default function Music() {
 					label="city lights"
 					url="/music/city_lights.mp3"
 					date="07/24/21"
-				/> */}
+				/>
 				<MusicListing
 					label={
 						<>Sunrays (for <a href="https://twitter.com/GambleputtyG">@GambleputtyG</a>)</>
 					}
 					url="/music/sunrays.mp3"
 					date="07/15/21"
-				/>
+				/> */}
 				<MusicListing
-					label="mega man 8 mockup stage select"
+					label="Stage Select (Mockup Mega Man 8-styled original)"
 					url="/music/mega_man_8_mockup_stage_select.mp3"
 					date="06/24/21"
 				/>
-				<MusicListing
+				{/* <MusicListing
 					label="cutesie (demo)"
 					url="/music/cutesie.mp3"
 					date="06/16/21"
-				/>
+				/> */}
 				<MusicListing
 					label="dawn in the city"
 					url="/music/dawn_in_the_city.mp3"
 					date="05/01/21"
 				/>
 				<MusicListing
-					label="encounter! (SNES)"
-					url="/music/encounter.mp3"
+					label="encounter! (SNES-inspired battle theme)"
+					url="/music/encounter!.mp3"
 					date="02/05/21"
 				/>
 				<MusicListing
-					label="neverending blizzard"
+					label="neverending blizzard (Touhou-inspired original)"
 					url="/music/neverending_blizzard.mp3"
 					date="01/27/21"
 				/>
