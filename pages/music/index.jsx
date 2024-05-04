@@ -91,25 +91,25 @@ export default function Music() {
 					date="09/22/22"
 				/>
 				<MusicListing
-					label="hunch (demo)"
+					label="hunch (dubstep, demo)"
 					url="/music/hunch_(demo).mp3"
 					date="08/10/22"
 				/>
 				<MusicListing
-					label="trap beat (VRC6) (demo)"
+					label="trap beat (NES VRC6, demo)"
 					url="/music/trap_beat_(wip).mp3"
 					date="08/10/22"
 				/>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=KjoB68bgrMc">to your roots (2000s JRPG-inspired battle theme)</a>
+						<a href="https://www.youtube.com/watch?v=KjoB68bgrMc">To Your Roots (2000s JRPG-inspired original)</a>
 					}
 					url="/music/to_your_roots.mp3"
 					date="08/10/22"
 				/>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=nAGMtYB0B9k">Wily Stage 1/2 - Mega Man 2 (Arrange)</a>
+						<a href="https://www.youtube.com/watch?v=nAGMtYB0B9k">Wily Stage 1/2 - Mega Man 2 (FM Arrange)</a>
 					}
 					url="/music/wily_stage_1_-_mm2_(arrange).mp3"
 					date="08/03/22"
@@ -127,7 +127,7 @@ export default function Music() {
 					date="06/18/22"
 				/>
 				<MusicListing
-					label="Lake - Pokémon DPPt (Arrange)"
+					label="Lake - Pokémon Diamond & Pearl (Arrange)"
 					url="/music/lake_-_pkmn_dppt.mp3"
 					date="04/01/22"
 				/>
@@ -151,7 +151,7 @@ export default function Music() {
 					date="07/15/21"
 				/> */}
 				<MusicListing
-					label="Stage Select (Mockup Mega Man 8-styled original)"
+					label="Stage Select (Mega Man 8-styled original)"
 					url="/music/mega_man_8_mockup_stage_select.mp3"
 					date="06/24/21"
 				/>
