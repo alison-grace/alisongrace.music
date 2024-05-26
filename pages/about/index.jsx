@@ -37,7 +37,7 @@ export default function About() {
 						since then, i've pursued a formal training in both classical and jazz theory and have aimed to perfect my craft.
 					</p>
 					<p>
-						i use FL Studio as my main DAW, although i'll occassionally use LSDJ or Famitracker to utilize a specific soundchip's unique sound (e.g. the NES's 2A03). i'm also familiar with Logic, and Ableton.
+						i use a variety of DAWs in my music, from Pro Tools and Logic, to FL Studio and Ableton. occassionally, i'll use LSDJ or Famitracker to utilize a specific hardware's unique sound (e.g. the NES's 2A03).
 					</p>
 					<p>
 						on top of a vast library of digital instruments, i try to use my collection of real instruments whenever i can. these include electric bass, electric guitar, acoustic guitar, flute, melodica, and some percussive instuments.
