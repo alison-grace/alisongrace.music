@@ -24,7 +24,7 @@ export default function Music() {
 						my commissions are <b>currently closed</b>, but i'm currently <b>accepting requests</b> for <b>work on games</b>!
 					</p>
 					<p>
-						my pricing is <b>$20/minute</b> of music.
+						my pricing is <b>$25/minute</b> of music.
 					</p>
 					<p>
 						<a href="https://vgen.co/kevenandsoki">for individual commissions, send your requests through VGen!</a>
