@@ -3,7 +3,7 @@ import TextBox from '../components/TextBox';
 export default function Home() {
 	return (
 		<>
-			<TextBox portraitURL="/assets/keven_portrait.png">
+			<TextBox portraitURL="/assets/ali_portrait.png">
 				hi, i'm keven! i'm a NY music composer with a specialty in VGM, fusion jazz, and EDM.
 			</TextBox>
 			<TextBox>
