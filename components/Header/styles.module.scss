@@ -3,9 +3,22 @@
 }
 
 .logo {
-	vertical-align: middle;
 	margin: 0 6px;
 	max-width: calc(100% - 12px);
+
+	img {
+		vertical-align: middle;
+	}
+
+	&:not(:hover) .lit {
+		width: 0;
+		height: 0;
+	}
+
+	&:hover .unlit {
+		width: 0;
+		height: 0;
+	}
 }
 
 .nav {

@@ -6,8 +6,9 @@ export default function Header() {
 	return (
 		<header className={styles.header}>
 
-			<Link href="/" target="_self">
-				<img className={styles.logo} src="/assets/logo.png" />
+			<Link className={styles.logo} href="/" target="_self">
+				<img className={styles.unlit} src="/assets/logo_unlit.gif" />
+				<img className={styles.lit} src="/assets/logo_lit.gif" />
 			</Link>
 
 			<nav className={styles.nav}>
