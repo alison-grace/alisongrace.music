@@ -34,11 +34,11 @@ export default function Music() {
 					</p>
 					<p>
 						<b>discord</b>: kevenandsoki <br/>
-						<b>email:</b> <a href="mailto:keven@kevenandsoki.com">keven@kevenandsoki.com</a>
+						<b>email:</b> <a href="mailto:ali@kevenandsoki.com">ali@kevenandsoki.com</a>
 					</p>
 				</TextBox>
 				<TextBox big subtle>
-					<iframe src="https://www.youtube.com/embed/RYDr6XYo6l4" />
+					<iframe src="https://www.youtube.com/embed/G8Vo5_TfN4Q" />
 				</TextBox>
 			</Columns>
 
