@@ -15,7 +15,7 @@ export default function About() {
 			<Columns>
 				<TextBox big>
 					<p>
-						as i said before, i'm ali (she/her). hi! i'm an 19 year old NY college student, graduating in 2027.
+						as i said before, i'm alison (she/her). hi! i'm an 19 year old NY college student, graduating in 2027.
 					</p>
 					<p>
 						i grew up with and always loved video games, especially their music. most of my childhood was spent either playing games, or trying to make my own. i was never big on actually making them, but i always loved creating soundtracks for them.
