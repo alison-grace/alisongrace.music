@@ -15,7 +15,7 @@ export default function About() {
 			<Columns>
 				<TextBox big>
 					<p>
-						my name's alison grace (she/her). i'm an 19 year old NY college student, graduating in 2027.
+						hi again, im alison grace (she/her). i'm an 19 year old NY college student, graduating in 2027.
 					</p>
 					<p>
 						i grew up with and always loved video games, especially their music. most of my childhood was spent either playing games, or trying to make my own. when making them, my favorite part was always writing music for them.
