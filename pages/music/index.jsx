@@ -51,7 +51,7 @@ export default function Music() {
 			<div className={styles.musicList}>
 				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Cover)</a>
+						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Faithful Cover)</a>
 					}
 					url="/music/sinister_sundown_-_kingdom_hearts_ii.mp3"
 					date="07/26/23"
