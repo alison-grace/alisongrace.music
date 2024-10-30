@@ -1,25 +1,26 @@
 .footerLink {
-	font-family: 'NES';
+  font-family: "NES";
 
-	text-decoration: none;
-	text-transform: uppercase;
-	white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
 
-	margin: 0 0.5ch;
+  margin: 0 0.5ch;
 
-	transition: opacity 0.4s;
-	opacity: 0.7;
+  transition: opacity 0.4s;
+  opacity: 0.7;
 
-	&:hover {
-		opacity: 1;
-	}
+  &:hover {
+    opacity: 1;
+  }
 
-	&::before, &::after {
-		content: '-';
-	}
+  &::before,
+  &::after {
+    content: "-";
+  }
 }
 
 @font-face {
-	font-family: 'NES';
-	src: url('/assets/nes.woff');
+  font-family: "NES";
+  src: url("/assets/nes.woff");
 }

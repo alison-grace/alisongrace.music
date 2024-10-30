@@ -1,9 +1,9 @@
-@use '../../styles/variables.scss' as *;
+@use "../../styles/variables.scss" as *;
 
 .musicList {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-	max-width: 100%;
-	width: 600px;
+  max-width: 100%;
+  width: 600px;
 }
