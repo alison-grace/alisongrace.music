@@ -1,12 +1,12 @@
-import { useRouter } from "next/router";
-import { useEffect } from "react";
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 export default function Error({ Component, pageProps }) {
-  const router = useRouter();
+	const router = useRouter();
 
-  useEffect(() => {
-    router.replace("/");
-  }, []);
+	useEffect(() => {
+		router.replace('/');
+	}, []);
 
-  return null;
+	return null;
 }

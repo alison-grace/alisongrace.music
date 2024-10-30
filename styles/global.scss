@@ -1,31 +1,30 @@
-@use "./variables.scss" as *;
+@use './variables.scss' as *;
 
 :root {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  background-color: #000000;
-  color: #ffffff;
-  font-family: "Courier New", monospace;
-  text-align: center;
-  margin: 0;
-  height: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Courier New', monospace;
+	text-align: center;
+	margin: 0;
+	height: 100%;
 }
 
 body > div {
-  height: 100%;
+	height: 100%;
 }
 
 :any-link {
-  color: #ffffff;
+	color: #ffffff;
 }
 
-video,
-iframe {
-  box-sizing: border-box;
-  border: $border;
-  vertical-align: bottom;
-  width: 100%;
-  aspect-ratio: 16 / 9;
+video, iframe {
+	box-sizing: border-box;
+	border: $border;
+	vertical-align: bottom;
+	width: 100%;
+	aspect-ratio: 16 / 9;
 }

@@ -1,33 +1,33 @@
-@use "../../styles/variables.scss" as *;
+@use '../../styles/variables.scss' as *;
 
 .musicListing {
-  margin: 8px;
+	margin: 8px;
 
-  border: $border;
-  background-color: $background-color;
+	border: $border;
+	background-color: $background-color;
 
-  text-align: left;
+	text-align: left;
 
-  &Heading {
-    display: flex;
-    border-bottom: $border;
+	&Heading {
+		display: flex;
+		border-bottom: $border;
 
-    & > * {
-      padding: 8px;
-    }
-  }
+		& > * {
+			padding: 8px;
+		}
+	}
 
-  &Label {
-    flex-grow: 1;
-    border-right: $border;
-  }
+	&Label {
+		flex-grow: 1;
+		border-right: $border;
+	}
 
-  &Content {
-    display: flex;
-    padding: 8px;
+	&Content {
+		display: flex;
+		padding: 8px;
 
-    audio {
-      flex-grow: 1;
-    }
-  }
+		audio {
+			flex-grow: 1;
+		}
+	}
 }
