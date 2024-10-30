@@ -1,11 +1,20 @@
 @use './variables.scss' as *;
 
+:root {
+	height: 100%;
+}
+
 body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: 'Courier New', monospace;
 	text-align: center;
 	margin: 0;
+	height: 100%;
+}
+
+body > div {
+	height: 100%;
 }
 
 :any-link {
