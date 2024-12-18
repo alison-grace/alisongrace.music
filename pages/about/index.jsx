@@ -26,7 +26,7 @@ export default function About() {
 						<i>(<a href="https://www.cavestory.org/">Cave Story</a>)</i>{' '}
 						and{' '}
 						<a href="https://en.wikipedia.org/wiki/Toby_Fox">Toby Fox</a>{' '}
-						<i>(<a href="https://www.undertale.com/">UNDERTALE</a>)</i> inspired me to never give up doing what i love. despite not having the most professional or industry-standard tools, they put out beautifully effective, and evocative music, saying so much with just one or two melodies.
+						<i>(<a href="https://www.undertale.com/">UNDERTALE</a>)</i> inspired me to never give up doing what i love. despite not having the most professional or industry-standard tools, they put out beautifully effective, and evocative music--saying thousands of words with just one melody.
 					</p>
 					<p>
 						amazing musicians like them are the ones who taught me that tools don't make the composer.
@@ -34,13 +34,13 @@ export default function About() {
 				</TextBox>
 				<TextBox big>
 					<p>
-						i've since pursued a formal training in both classical and jazz theory and have aimed to perfect my craft.
+						i've since pursued formal music training and have aimed to perfect my craft.
 					</p>
 					<p>
-						i use a variety of DAWs in my music, from Pro Tools and Logic, to FL Studio and Ableton. i'll also use chiptune trackers like LSDJ, Famitracker, or Furnace Tracker from time to time.
+						i use a variety of DAWs in my music, from FL Studio and Logic, to chiptune trackers like LSDJ, Famitracker, or Furnace Tracker.
 					</p>
 					<p>
-						on top of a vast library of digital instruments, i try to use my collection of real instruments whenever i can. these include electric bass, electric guitar, acoustic guitar, flute, melodica, and some percussive instuments.
+						on top of a vast library of digital instruments, i try to use my collection of real instruments whenever i can. these include electric guitar, electric bass, acoustic guitar, flute, melodica, and some percussive instuments.
 					</p>
 				</TextBox>
 			</Columns>
