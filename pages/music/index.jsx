@@ -96,7 +96,7 @@ export default function Music() {
 					date="08/10/22"
 				/>
 				<MusicListing
-					label="need you here with me (NES VRC6, demo)"
+					label="need your company (NES VRC6, demo)"
 					url="/music/trap_beat_(wip).mp3"
 					date="08/10/22"
 				/>
