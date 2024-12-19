@@ -10,15 +10,16 @@
 		vertical-align: middle;
 	}
 
-	&:not(:hover) .lit {
-		width: 0;
-		height: 0;
-	}
+	// this was for when i did the .gif light up on hover thingie
+	// &:not(:hover) .lit {
+	// 	width: 0;
+	// 	height: 0;
+	// }
 
-	&:hover .unlit {
-		width: 0;
-		height: 0;
-	}
+	// &:hover .unlit {
+	// 	width: 0;
+	// 	height: 0;
+	// }
 }
 
 .nav {
