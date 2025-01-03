@@ -8,8 +8,8 @@ export default function Music() {
 	return (
 		<>
 			<Head>
-				<title>kevenandsoki (music)</title>
-				<meta property="og:title" content="kevenandsoki (music)" />
+				<title>alisongrace (music)</title>
+				<meta property="og:title" content="alisongrace (music)" />
 				<meta property="og:description" content="portfolio examples of what i do best." />
 			</Head>
 
@@ -27,14 +27,14 @@ export default function Music() {
 						my pricing is <b>$25/minute</b> of music.
 					</p>
 					<p>
-						<a href="https://vgen.co/kevenandsoki">for individual commissions, send your requests through VGen!</a>
+						<a href="https://vgen.co/alisongrace">for individual commissions, send your requests through VGen!</a>
 					</p>
 					<p>
 						if you're interested in hiring me as a composer for a game or project, please <b>contact me personally</b> to discuss details:
 					</p>
 					<p>
-						<b>discord</b>: kevenandsoki <br/>
-						<b>email:</b> <a href="mailto:ali@kevenandsoki.com">ali@kevenandsoki.com</a>
+						<b>discord</b>: alisongrace.music <br/>
+						<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a>
 					</p>
 				</TextBox>
 				<TextBox big subtle>
