@@ -61,7 +61,7 @@ export default function Page({ children }) {
 	return (
 		<div className={styles.page}>
 			<Head>
-				<title>alisongrace - music composer</title>
+				<title>alisongrace (home)</title>
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta property="og:title" content="alisongrace.music" />
