@@ -61,12 +61,12 @@ export default function Page({ children }) {
 	return (
 		<div className={styles.page}>
 			<Head>
-				<title>kevenandsoki</title>
+				<title>alisongrace - music composer</title>
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta property="og:title" content="kevenandsoki.com" />
-				<meta property="og:description" content="welcome to my site!" />
-				<meta property="og:image" content="/assets/keven_portrait.png" />
+				<meta property="og:title" content="alisongrace.music" />
+				<meta property="og:description" content="welcome to my portfolio website!" />
+				<meta property="og:image" content="/assets/ali_portrait.png" />
 				<meta name="theme-color" content="#6f9cd6" />
 
 				<link rel="shortcut icon" href="/favicon.ico" />

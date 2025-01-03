@@ -7,8 +7,8 @@ export default function About() {
 	return (
 		<>
 			<Head>
-				<title>kevenandsoki (about)</title>
-				<meta property="og:title" content="kevenandsoki (about)" />
+				<title>alisongrace (about)</title>
+				<meta property="og:title" content="alisongrace (about)" />
 				<meta property="og:description" content="some info about me, and my musical background." />
 			</Head>
 

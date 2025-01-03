@@ -4,11 +4,11 @@ import FooterLink from '../FooterLink';
 export default function Footer() {
 	return (
 		<footer className={styles.footer}>
-			<FooterLink href="mailto:ali@kevenandsoki.com">Email</FooterLink>
-			<FooterLink href="https://www.youtube.com/@kevenandsoki">YT</FooterLink>
-			<FooterLink href="https://vgen.co/kevenandsoki">VGen</FooterLink>
+			<FooterLink href="mailto:ali@alisongrace.music">Email</FooterLink>
+			<FooterLink href="https://www.youtube.com/@alisongracemusic">YT</FooterLink>
+			<FooterLink href="https://vgen.co/alisongrace">VGen</FooterLink>
 			<FooterLink href="https://alisongrace.bandcamp.com">Bandcamp</FooterLink>
-			<FooterLink href="https://bsky.app/profile/kevenandsoki.com">Bsky</FooterLink>
+			<FooterLink href="https://bsky.app/profile/alisongrace.music">Bsky</FooterLink>
 		</footer>
 	);
 }
