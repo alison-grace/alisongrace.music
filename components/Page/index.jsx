@@ -69,7 +69,7 @@ export default function Page({ children }) {
 				<meta property="og:image" content="/assets/ali_portrait.png" />
 				<meta name="theme-color" content="#6f9cd6" />
 
-				<link rel="shortcut icon" href="/favicon.ico" />
+				<link rel="shortcut icon" href="/favicon.ico?" />
 
 				<base target="_blank" />
 			</Head>
