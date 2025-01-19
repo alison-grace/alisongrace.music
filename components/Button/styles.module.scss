@@ -1,17 +1,16 @@
-.navLink {
+.button {
 	background-color: #262d42;
 
 	border: 2px solid #c8d2e4;
 	border-radius: 4px;
-	padding: 10px 18px;
+	padding: 16px 24px;
 	margin: 0 4px;
 
-	text-transform: lowercase;
 	text-align: center;
 	text-decoration: none;
 
 	transition: opacity 0.4s;
-	opacity: 0.7;
+	opacity: 0.9;
 
 	&:hover {
 		opacity: 1;

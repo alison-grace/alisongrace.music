@@ -15,16 +15,11 @@ export default function Music() {
 
 			{/* The style is there because the misalignment of the tops and bottoms
 			    of each column look like poopoo dog doodoo without it. */}
+
 			<Columns style={{ alignItems: 'center' }}>
 				<TextBox big>
-					{/* <p>
-						my commissions are open! i'm open to write music for games, streams, or most multimedia.
-					</p> */}
 					<p>
 						my commissions are <b>currently closed</b>, but i'm currently <b>accepting requests</b> for <b>work on games</b>!
-					</p>
-					<p>
-						my pricing is <b>$25/minute</b> of music.
 					</p>
 					<p>
 						<a href="https://vgen.co/alisongrace">for individual commissions, send your requests through VGen!</a>
@@ -33,13 +28,13 @@ export default function Music() {
 						if you're interested in hiring me as a composer for a game or project, please <b>contact me personally</b> to discuss details:
 					</p>
 					<p>
-						<b>discord</b>: alisongrace.music <br/>
-						<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a>
+						<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
+						<b>discord</b>: alisongrace.music
 					</p>
 				</TextBox>
-				<TextBox big subtle>
+				{/* <TextBox big subtle>
 					<iframe src="https://www.youtube.com/embed/G8Vo5_TfN4Q" />
-				</TextBox>
+				</TextBox> */}
 			</Columns>
 
 			<TextBox big>

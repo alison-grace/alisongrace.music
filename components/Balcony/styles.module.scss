@@ -1,0 +1,75 @@
+@use 'sass:math';
+
+// The width and height of the cloud images.
+$width: 320;
+$height: 240;
+
+// The size of each pixel in the pixel art.
+$scale: 3px;
+
+.balcony {
+	position: fixed;
+	z-index: -10;
+	pointer-events: none;
+	image-rendering: pixelated;
+
+	width: 100%;
+	height: 100%;
+
+	background-image: url('/assets/balcony/background.png');
+	background-size: cover;
+
+	&, & > * {
+		left: 0;
+		bottom: 0;
+
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: repeat-x;
+	}
+
+	& > * {
+		position: absolute;
+		width: 200%;
+		min-width: 2 * $width * $scale;
+		height: $height * $scale;
+
+		background-size: auto 100%;
+
+		animation-name: parallax;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+}
+
+$parallax-duration: 9.6s * 1.5;
+
+.cloud1 {
+	background-image: url('/assets/balcony/cloud_1.png');
+	animation-duration: $parallax-duration;
+}
+
+.cloud2 {
+	background-image: url('/assets/balcony/cloud_2.png');
+	animation-duration: math.div($parallax-duration, 2);
+}
+
+.cloud3 {
+	background-image: url('/assets/balcony/cloud_3.png');
+	animation-duration: math.div($parallax-duration, 4);
+}
+
+.cloud4 {
+	background-image: url('/assets/balcony/cloud_4.png');
+	animation-duration: math.div($parallax-duration, 8);
+}
+
+@keyframes parallax {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-$width * $scale);
+	}
+}
