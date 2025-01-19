@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import NavLink from '../NavLink';
+import Button from '../Button';
 import styles from './styles.module.scss';
 
 export default function Header() {
@@ -13,9 +13,9 @@ export default function Header() {
 			</Link>
 
 			<nav className={styles.nav}>
-				<NavLink href="/music">Music</NavLink>
-				<NavLink href="/">Home</NavLink>
-				<NavLink href="/about">About</NavLink>
+				<Button href="/music" className={styles.navLink}>music</Button>
+				<Button href="/" className={styles.navLink}>home</Button>
+				<Button href="/about" className={styles.navLink}>about</Button>
 			</nav>
 
 		</header>
