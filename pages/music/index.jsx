@@ -19,10 +19,10 @@ export default function Music() {
 			<Columns style={{ alignItems: 'center' }}>
 				<TextBox big>
 					<p>
-						my commissions are <b>currently closed</b>, but i'm currently <b>accepting requests</b> for <b>work on games</b>!
+						my commissions are <b>currently closed</b>, but i am always <b>open</b> for <b>work on games</b>!
 					</p>
 					<p>
-						<a href="https://vgen.co/alisongrace">for individual commissions, send your requests through VGen!</a>
+						<a href="https://vgen.co/alisongrace">for individual commissions (when they're open), send your requests through VGen!</a>
 					</p>
 					<p>
 						if you're interested in hiring me as a composer for a game or project, please <b>contact me personally</b> to discuss details:
@@ -45,6 +45,26 @@ export default function Music() {
 
 			<div className={styles.musicList}>
 				<MusicListing
+					label="macromedia flash (Roland Sound Canvas VA, demo)"
+					url="/music/macromedia_flash.mp3"
+					date="01/05/25"
+				/>
+				<MusicListing
+					label="Let's Report a Bug! (original)"
+					url="/music/Let's_Report_a_Bug!.mp3"
+					date="06/24/24"
+				/>
+				<MusicListing
+					label="ethereal (trance-adjacent, demo)"
+					url="/music/ethereal.mp3"
+					date="05/19/24"
+				/>
+				<MusicListing
+					label="penultimate area (Persona 4-inspired)"
+					url="/music/penultimate_area.mp3"
+					date="03/21/24"
+				/>
+				<MusicListing
 					label={
 						<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Faithful Cover)</a>
 					}
@@ -57,16 +77,9 @@ export default function Music() {
 					date="06/13/23"
 				/>
 				<MusicListing
-					label="Fated Bond"
+					label="Fated Bond (original)"
 					url="/music/fated_bond_(v2).mp3"
 					date="04/25/23"
-				/>
-				<MusicListing
-					label={
-						<a href="https://www.youtube.com/watch?v=aOj4jtZp8rQ">M.Z.M.B.C - FΛDE (Fusion Cover)</a>
-					}
-					url="/music/mzmbc_-_fade.mp3"
-					date="03/17/23"
 				/>
 				<MusicListing
 					label="Red Alert - Metal Gear (MSX, Arrange)"
@@ -91,15 +104,8 @@ export default function Music() {
 					date="08/10/22"
 				/>
 				<MusicListing
-					label="need your company (NES VRC6, demo)"
+					label="need ur company (VRC6, chibi-tech inspired demo)"
 					url="/music/trap_beat_(wip).mp3"
-					date="08/10/22"
-				/>
-				<MusicListing
-					label={
-						<a href="https://www.youtube.com/watch?v=KjoB68bgrMc">To Your Roots (2000s JRPG-inspired original)</a>
-					}
-					url="/music/to_your_roots.mp3"
 					date="08/10/22"
 				/>
 				<MusicListing
@@ -122,7 +128,7 @@ export default function Music() {
 					date="06/18/22"
 				/>
 				<MusicListing
-					label="Lake - Pokémon Diamond & Pearl (Arrange)"
+					label="Lake - Pokémon Diamond & Pearl (Digifu Arrange)"
 					url="/music/lake_-_pkmn_dppt.mp3"
 					date="04/01/22"
 				/>
@@ -156,7 +162,7 @@ export default function Music() {
 					date="06/16/21"
 				/> */}
 				<MusicListing
-					label="dawn in the city"
+					label="dawn in the city (original)"
 					url="/music/dawn_in_the_city.mp3"
 					date="05/01/21"
 				/>
@@ -166,18 +172,8 @@ export default function Music() {
 					date="02/05/21"
 				/>
 				<MusicListing
-					label="neverending blizzard (Touhou-inspired original)"
-					url="/music/neverending_blizzard.mp3"
-					date="01/27/21"
-				/>
-				<MusicListing
-					label="consequence"
-					url="/music/consequence.mp3"
-					date="11/16/20"
-				/>
-				<MusicListing
 					label={
-						<a href="https://www.youtube.com/watch?v=ZB-9H-o7QQo">lost humanity</a>
+						<a href="https://www.youtube.com/watch?v=ZB-9H-o7QQo">lost humanity (original)</a>
 					}
 					url="/music/lost_humanity.mp3"
 					date="10/30/20"
