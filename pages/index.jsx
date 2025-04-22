@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<>
 			<TextBox portraitURL="/assets/ali_portrait.png" className={styles.sagging}>
-				hi, i'm alison! i'm a VGM composer with a specialty in digital and jazz fusion.
+				hi, i'm alison!<br/>i make chiptune and VGM, for and outside of games.
 			</TextBox>
 
 			<div className={styles.externalLinks}>

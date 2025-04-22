@@ -37,11 +37,11 @@ export default function Music() {
 				</TextBox> */}
 			</Columns>
 
-			<TextBox big>
+			{/* <TextBox big>
 				<p>
 					below are some more works of mine from over the years, both originals and covers.
 				</p>
-			</TextBox>
+			</TextBox> */}
 
 			<div className={styles.musicList}>
 				<MusicListing
