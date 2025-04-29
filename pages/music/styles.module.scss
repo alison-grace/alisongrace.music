@@ -1,9 +1,18 @@
 @use '../../styles/variables.scss' as *;
 
-.musicList {
-	display: flex;
-	flex-direction: column;
+.iframe {
+	border: 0;
+	width: 584px;
+	max-width: calc(100% - 32px);
+	height: 120px;
+}
 
-	max-width: 100%;
-	width: 600px;
+.musicColumns {
+	height: 100%;
+	max-width: calc(100% - 32px);
+}
+
+.musicTextBoxes {
+	display: flex;
+    flex-direction: column;
 }

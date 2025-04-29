@@ -7,9 +7,9 @@ export default function MusicListing({ label, url, date }) {
 				<div className={styles.musicListingLabel}>
 					{label}
 				</div>
-				<div className={styles.musicListingDate}>
+				{/* <div className={styles.musicListingDate}>
 					{date}
-				</div>
+				</div> */}
 			</div>
 			<div className={styles.musicListingContent}>
 				<audio src={url} controls />
