@@ -5,6 +5,16 @@ export default function MusicList () {
 	return (
 		<div className={styles.musicList}>
 			<MusicListing
+				label="Fated Bond (original)"
+				url="/music/fated_bond_(v2).mp3"
+				date="04/25/23"
+			/>
+			<MusicListing
+				label="penultimate area (Persona 4-inspired)"
+				url="/music/penultimate_area.mp3"
+				date="03/21/24"
+			/>
+			<MusicListing
 				label="macromedia flash (Roland Sound Canvas, demo)"
 				url="/music/macromedia_flash.mp3"
 				date="01/05/25"
@@ -18,28 +28,6 @@ export default function MusicList () {
 				label="ethereal (trance-adjacent, demo)"
 				url="/music/ethereal.mp3"
 				date="05/19/24"
-			/>
-			<MusicListing
-				label="penultimate area (Persona 4-inspired)"
-				url="/music/penultimate_area.mp3"
-				date="03/21/24"
-			/>
-			<MusicListing
-				label={
-					<a href="https://www.youtube.com/watch?v=RZaXk477Hbc">Sinister Sundown - Kingdom Hearts II (Faithful Cover)</a>
-				}
-				url="/music/sinister_sundown_-_kingdom_hearts_ii.mp3"
-				date="07/26/23"
-			/>
-			<MusicListing
-				label="Strengthened By Hope (demo)"
-				url="/music/strengthened_by_hope_(demo).mp3"
-				date="06/13/23"
-			/>
-			<MusicListing
-				label="Fated Bond (original)"
-				url="/music/fated_bond_(v2).mp3"
-				date="04/25/23"
 			/>
 			<MusicListing
 				label="Red Alert - Metal Gear (MSX, Arrange)"
@@ -57,7 +45,7 @@ export default function MusicList () {
 				date="08/10/22"
 			/>
 			<MusicListing
-				label="need ur company (VRC6, chibi-tech inspired demo)"
+				label="need ur company (NES VRC6, very chibi-tech inspired demo)"
 				url="/music/trap_beat_(wip).mp3"
 				date="08/10/22"
 			/>
@@ -67,11 +55,6 @@ export default function MusicList () {
 				}
 				url="/music/wily_stage_1_-_mm2_(arrange).mp3"
 				date="08/03/22"
-			/>
-			<MusicListing
-				label="90s house (demo)"
-				url="/music/90s_house_(wip).mp3"
-				date="06/22/22"
 			/>
 			<MusicListing
 				label={

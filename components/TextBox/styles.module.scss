@@ -19,7 +19,7 @@
 	width: 476px;
 	max-width: calc(100% - 32px);
 
-	&:not(.big) {
+	&:not(.big, .resizable) {
 		min-height: 116px;
 		display: inline-flex;
 		align-items: center;

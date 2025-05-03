@@ -30,6 +30,7 @@ export default function Music() {
 						<p>
 							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
 							<b>discord</b>: alisongrace.music
+							<br/>
 						</p>
 					</TextBox>
 					{/* <TextBox big subtle>
@@ -43,11 +44,12 @@ export default function Music() {
 					</p>
 				</TextBox> */}
 
-				{/* <iframe className={styles.iframe}
-					src="https://bandcamp.com/EmbeddedPlayer/album=1073379070/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/">
-				</iframe> */}
-
-				<MusicList/>
+				<div>
+					<iframe className={styles.iframe}
+						src="https://bandcamp.com/EmbeddedPlayer/album=1073379070/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/">
+					</iframe>
+					<MusicList/>
+				</div>
 			</Columns>
 		</>
 	);
