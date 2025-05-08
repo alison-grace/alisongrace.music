@@ -17,7 +17,7 @@ export default function Music() {
 				<div className={styles.musicTextBoxes}>
 					<TextBox big>
 						<p>
-							my commissions are <b>currently closed</b>, but i am always <b>open</b> for <b>work on games</b>!
+							my commissions are <b>currently closed</b>, but i'm always <b>open</b> for <b>work on games</b>!
 						</p>
 						<p>
 							<a href="https://vgen.co/alisongrace">for individual commissions (when they're open), send your requests through VGen!</a>
