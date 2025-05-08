@@ -1,0 +1,19 @@
+.blinkingCursor {
+	animation: 0.5s step-end 0s infinite blinking;
+
+	display: inline-block;
+	width: 1ch;
+	height: 1.375em;
+	background-color: white;
+	vertical-align: text-bottom;
+}
+
+@keyframes blinking {
+	from {
+		opacity: 1;
+	}
+
+	30% {
+		opacity: 0;
+	}
+}
