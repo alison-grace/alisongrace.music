@@ -30,10 +30,10 @@ export default function About() {
 					</i></p>
 				</TextBox>
 				<div>
-					<img
+					{/* <img
 						className={styles.alisonCollage}
 						src="https://f4.bcbits.com/img/0010850854_21.jpg"
-					/>
+					/> */}
 					<TextBox big>
 						<p>
 							alisongrace uses a range of DAWs, chiptune trackers, a vast library of digital plugins, a collection of live instruments, and the support of her cat to compose and produce her music.
