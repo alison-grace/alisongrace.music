@@ -35,9 +35,9 @@ export default function About() {
 						src="https://f4.bcbits.com/img/0010850854_21.jpg"
 					/> */}
 					<TextBox big>
-						<p>
+						<p><i>
 							alisongrace uses a range of DAWs, chiptune trackers, a vast library of digital plugins, a collection of live instruments, and the support of her cat to compose and produce her music.
-						</p>
+						</i></p>
 						<p>
 							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
 							<b>discord</b>: alisongrace.music
