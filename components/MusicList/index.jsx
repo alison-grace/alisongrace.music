@@ -11,7 +11,7 @@ export default function MusicList () {
 			/>
 			<MusicListing
 				label="Fated Bond (original)"
-				url="/music/fated_bond_(v2).mp3"
+				url="/music/fated_bond_(v2.5).mp3"
 				date="04/25/23"
 			/>
 			<MusicListing
