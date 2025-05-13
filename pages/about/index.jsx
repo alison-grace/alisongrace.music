@@ -15,7 +15,7 @@ export default function About() {
 			<Columns>
 				<TextBox big>
 					<p><i>
-						Combining the music of America and Japan alike, </i><b>alisongrace</b><i> explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying creative modern production techniques to trashy, dated sounds and samples, breathing new life into them.
+						Combining the music of America and Japan alike, alisongrace explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying creative, modern production techniques to dated sounds and samples, breathing new life into them.
 					</i></p>
 					{/* <p>
 						growing up, alison's childhood was filled with music and games--both playing games and trying to make her own. her favorite part of game developemnt was writing music for them.
@@ -29,15 +29,21 @@ export default function About() {
 						</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major inspirations for her--proving that she can create beautiful, and evocative music with just about anything.
 					</i></p>
 				</TextBox>
-				<TextBox big>
-					<p>
-						alisongrace uses a range of DAWs, chiptune trackers, a vast library of digital plugins, a collection of live instruments, and the support of her cat to compose and produce her music.
-					</p>
-					<p>
-						<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
-						<b>discord</b>: alisongrace.music
-					</p>
-				</TextBox>
+				<div>
+					<img
+						className={styles.alisonCollage}
+						src="https://f4.bcbits.com/img/0010850854_21.jpg"
+					/>
+					<TextBox big>
+						<p>
+							alisongrace uses a range of DAWs, chiptune trackers, a vast library of digital plugins, a collection of live instruments, and the support of her cat to compose and produce her music.
+						</p>
+						<p>
+							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
+							<b>discord</b>: alisongrace.music
+						</p>
+					</TextBox>
+				</div>
 			</Columns>
 			<img
 				className={styles.kasSittingImage}
