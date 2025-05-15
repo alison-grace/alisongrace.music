@@ -5,17 +5,15 @@
 	text-transform: uppercase;
 	white-space: nowrap;
 
-	margin: 0 0.5ch;
+	text-shadow: .125em .125em black;
+
+	margin: 0 1em;
 
 	transition: opacity 0.4s;
 	opacity: 0.7;
 
 	&:hover {
 		opacity: 1;
-	}
-
-	&::before, &::after {
-		content: '-';
 	}
 }
 
