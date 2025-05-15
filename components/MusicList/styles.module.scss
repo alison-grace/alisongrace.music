@@ -6,13 +6,15 @@
 	overflow-y: auto;
 
 	width: 476px;
+	max-width: 100%;
+	box-sizing: border-box;
 	height: 220px;
 
 	scrollbar-color: currentColor transparent;
 
-	border: 2px solid rgba(136, 176, 255, 0.3);
-	background-color: rgba(25, 33, 66, 0.3);
+	border: $border;
+	background-color: $background-color;
 
-	padding: 8px;
+	padding: 4px;
 	margin: 16px 0px;
 }
