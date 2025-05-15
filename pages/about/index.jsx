@@ -15,7 +15,7 @@ export default function About() {
 			<Columns>
 				<TextBox big>
 					<p><i>
-						Combining the music of America and Japan alike, alisongrace explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying creative, modern production techniques to dated sounds and samples, breathing new life into them.
+						Combining the music of America and Japan alike, alisongrace explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying creative modern production techniques to dated sounds and samples, breathing new life into them.
 					</i></p>
 					{/* <p>
 						growing up, alison's childhood was filled with music and games--both playing games and trying to make her own. her favorite part of game developemnt was writing music for them.
