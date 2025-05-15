@@ -20,7 +20,7 @@ export default function Home() {
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon}></img>
 					youtube
 				</Button>
-				<Button href="https://alisongrace.bandcamp.com/music" className={styles.externalLink}>
+				<Button href="https://alisongrace.bandcamp.com" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon}></img>
 					bandcamp
 				</Button>
