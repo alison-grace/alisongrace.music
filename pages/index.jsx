@@ -2,6 +2,7 @@ import Button from '../components/Button';
 import TextBox from '../components/TextBox';
 import BlinkingCursor from '../components/BlinkingCursor';
 import styles from './styles.module.scss';
+import classNames from 'classnames';
 
 export default function Home() {
 	return (
@@ -12,20 +13,26 @@ export default function Home() {
 			</TextBox>
 
 			<div className={styles.externalLinks}>
-				<Button href="https://linktr.ee/alisongracemusic" className={styles.externalLink}>
-					<img src="/assets/venus_album_cover.png" className={styles.icon}></img>
-					venus (NEW ALBUM)
+				<Button
+					href="https://cloudcrew.bandcamp.com/album/birdsongs-wam-2"
+					className={classNames(styles.externalLink, styles.bigExternalLink)}
+				>
+					<img
+						src="/assets/birdsongs_album_cover.png"
+						className={styles.icon}
+					/>
+					Birdsongs (WAM #2)
 				</Button>
 				<Button href="https://www.youtube.com/@alisongracemusic" className={styles.externalLink}>
-					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon}></img>
+					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon} />
 					youtube
 				</Button>
 				<Button href="https://alisongrace.bandcamp.com" className={styles.externalLink}>
-					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon}></img>
+					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon} />
 					bandcamp
 				</Button>
 				<Button href="https://vgen.co/alisongrace" className={styles.externalLink}>
-					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" className={styles.icon}></img>
+					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" className={styles.icon} />
 					commissions (closed)
 				</Button>
 			</div>

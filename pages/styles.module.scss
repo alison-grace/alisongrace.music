@@ -20,6 +20,16 @@
     align-items: center;
 }
 
+.bigExternalLink {
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	.icon {
+		width: 4em;
+		height: 4em;
+	}
+}
+
 .externalLinks {
 	width: 476px;
 	max-width: calc(100% - 32px);
