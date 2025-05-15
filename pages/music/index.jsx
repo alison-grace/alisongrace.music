@@ -20,17 +20,16 @@ export default function Music() {
 							my commissions are <b>currently closed</b>, but i'm always <b>open</b> for <b>work on games</b>!
 						</p>
 						<p>
-							<a href="https://vgen.co/alisongrace">for individual commissions (when they're open), send your requests through VGen!</a>
-						</p>
-					</TextBox>
-					<TextBox big>
-						<p>
-							if you're interested in hiring me as a composer for a game or project, please <b>contact me personally</b> to discuss details:
+							when they're open, send your requests through{" "}
+							<a href="https://vgen.co/alisongrace">VGen</a>.
 						</p>
 						<p>
 							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
 							<b>discord</b>: alisongrace.music
 							<br/>
+						</p>
+						<p>
+							the following is all my released (and some unreleased) music :D
 						</p>
 					</TextBox>
 					{/* <TextBox big subtle>
