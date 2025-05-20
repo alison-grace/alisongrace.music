@@ -21,19 +21,19 @@ export default function Home() {
 						src="/assets/birdsongs_album_cover.png"
 						className={styles.icon}
 					/>
-					Birdsongs (WAM #2)
+					<div className={styles.externalLinkLabel}>Birdsongs (WAM #2)</div>
 				</Button>
 				<Button href="https://www.youtube.com/@alisongracemusic" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon} />
-					youtube
+					<div className={styles.externalLinkLabel}>youtube</div>
 				</Button>
 				<Button href="https://alisongrace.bandcamp.com" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon} />
-					bandcamp
+					<div className={styles.externalLinkLabel}>bandcamp</div>
 				</Button>
 				<Button href="https://vgen.co/alisongrace" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" className={styles.icon} />
-					commissions (closed)
+					<div className={styles.externalLinkLabel}>commissions (closed)</div>
 				</Button>
 			</div>
 		</>

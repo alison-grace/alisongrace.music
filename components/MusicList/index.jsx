@@ -35,14 +35,14 @@ export default function MusicList () {
 				date="04/01/22"
 			/>
 			<MusicListing
-				label="Sub Battle - Bahamut Lagoon (Cover)"
-				url="/music/sub_battle_-_bahamut_lagoon.mp3"
-				date="09/22/22"
-			/>
-			<MusicListing
 				label="need ur company (NES VRC6, very chibi-tech inspired demo)"
 				url="/music/trap_beat_(wip).mp3"
 				date="08/10/22"
+			/>
+			<MusicListing
+				label="Sub Battle - Bahamut Lagoon (Cover)"
+				url="/music/sub_battle_-_bahamut_lagoon.mp3"
+				date="09/22/22"
 			/>
 			<MusicListing
 				label={
@@ -63,13 +63,13 @@ export default function MusicList () {
 				url="/music/lost_humanity.mp3"
 				date="10/30/20"
 			/>
-			<MusicListing
+			{/* <MusicListing
 				label={
 					<>makeikusa (for <a href="https://twitter.com/Shimada_Swears">@Shimada_Swears</a>)</>
 				}
 				url="/music/makeikusa.mp3"
 				date="06/18/22"
-			/>
+			/> */}
 			<MusicListing
 				label={
 					<a href="https://www.youtube.com/watch?v=FLJYgQvvJ1E">Windmill Isle (Day) - Sonic Unleashed (Arrange)</a>
