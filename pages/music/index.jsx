@@ -29,7 +29,7 @@ export default function Music() {
 							<br/>
 						</p>
 						<p>
-							the following is all my released (and some unreleased) music :D
+							the following is my album that best shows my range, and some unreleased tracks of mine :D
 						</p>
 					</TextBox>
 					{/* <TextBox big subtle>
