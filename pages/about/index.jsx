@@ -26,7 +26,7 @@ export default function About() {
 						</i>(<a href="https://www.cavestory.org/game-info/about-cave-story.php">Cave Story</a>)<i>{' '}
 						and{' '}
 						<a href="https://en.wikipedia.org/wiki/Toby_Fox">Toby Fox</a>{' '}
-						</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major inspirations for her--proving that she can create beautiful, and evocative music with just about any tools.
+						</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major inspirations for her--proving that she can create beautiful and evocative music with any tools.
 					</i></p>
 				</TextBox>
 				<div>
