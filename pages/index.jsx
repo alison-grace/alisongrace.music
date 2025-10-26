@@ -14,14 +14,14 @@ export default function Home() {
 
 			<div className={styles.externalLinks}>
 				<Button
-					href="https://cloudcrew.bandcamp.com/album/color-coated-wam-3"
+					href="https://cloudcrew.bandcamp.com/album/dusk-to-dawn-wam-4"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
 						src="/assets/colorcoated_album_cover.png"
 						className={styles.icon}
 					/>
-					<div className={styles.externalLinkLabel}>Color Coated (WAM #3)</div>
+					<div className={styles.externalLinkLabel}>DUSK to DAWN (WAM #4)</div>
 				</Button>
 				<Button href="https://www.youtube.com/@alisongracemusic" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon} />
