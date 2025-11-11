@@ -18,7 +18,7 @@ export default function Home() {
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
-						src="/assets/colorcoated_album_cover.png"
+						src="/assets/dusktodawn_album_cover.png"
 						className={styles.icon}
 					/>
 					<div className={styles.externalLinkLabel}>DUSK to DAWN (WAM #4)</div>
