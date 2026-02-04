@@ -1,18 +1,7 @@
-.aliSittingImage {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
+@use '../../styles/variables.scss' as *;
 
-	opacity: 1;
-	transition: opacity 0.4s;
-
-	@media screen and (max-width: 1000px) {
-		opacity: 0;
-	}
-}
-
-.alisonCollage {
-	width: 500px;
-	height: 300px;
+.alisonIRLImage {
+	width: 405px;
+	height: 610px;
+	border: $border;
 }

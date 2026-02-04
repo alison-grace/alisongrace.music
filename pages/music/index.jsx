@@ -17,19 +17,19 @@ export default function Music() {
 				<div className={styles.musicTextBoxes}>
 					<TextBox big>
 						<p>
-							my commissions are <b>currently closed</b>, but i'm always <b>open</b> for <b>work on games</b>!
+							i've been quite busy for a while, so my commissions are <b>closed indefinitely</b>, but i'm <b>always open</b> for <b>work on games/projects/albums</b>.
 						</p>
 						<p>
-							when they're open, send your requests through{" "}
+							when they do eventually open again, you can send commission requests through{" "}
 							<a href="https://vgen.co/alisongrace">VGen</a>.
+						</p>
+						<p>
+							i'm <b>semi-negotiable</b> on rates! please contact me for more info.
 						</p>
 						<p>
 							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>
 							<b>discord</b>: alisongrace.music
 							<br/>
-						</p>
-						<p>
-							the following is my album that best shows my range, and some unreleased tracks of mine :D
 						</p>
 					</TextBox>
 					{/* <TextBox big subtle>
@@ -44,6 +44,11 @@ export default function Music() {
 				</TextBox> */}
 
 				<div>
+					<div className={styles.musicSmallTextBox}>
+						<p>
+							below are a mix of released tracks, unreleased tracks, demos, and covers!
+						</p>
+					</div>
 					<iframe className={styles.iframe}
 						src="https://bandcamp.com/EmbeddedPlayer/album=1073379070/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/">
 					</iframe>

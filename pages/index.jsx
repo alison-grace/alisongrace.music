@@ -13,29 +13,54 @@ export default function Home() {
 			</TextBox>
 
 			<div className={styles.externalLinks}>
+				<div className={styles.smallTextBox}>
+					<u>latest releases:</u>
+				</div>
 				<Button
-					href="https://cloudcrew.bandcamp.com/album/dusk-to-dawn-wam-4"
+					href="https://chipt4t.bandcamp.com/album/celestial-circuit"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
-						src="/assets/dusktodawn_album_cover.png"
+						src="/assets/celestialcircuit_album_cover.png"
 						className={styles.icon}
 					/>
-					<div className={styles.externalLinkLabel}>DUSK to DAWN (WAM #4)</div>
+					<div className={styles.externalLinkLabel}>
+						Celestial Circuit (Chip T4T)
+					</div>
 				</Button>
-				<Button href="https://www.youtube.com/@alisongracemusic" className={styles.externalLink}>
-					<img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" className={styles.icon} />
-					<div className={styles.externalLinkLabel}>youtube</div>
+				<Button
+					href="https://alisongrace.bandcamp.com/album/venus"
+					className={classNames(styles.externalLink, styles.bigExternalLink)}
+				>
+					<img
+						src="/assets/venus_album_cover.png"
+						className={styles.icon}
+					/>
+					<div className={styles.externalLinkLabel}>venus (ALBUM)</div>
+				</Button>
+				<Button
+					href="https://alisongrace.bandcamp.com/album/peaches-interplanetary-ost"
+					className={classNames(styles.externalLink, styles.bigExternalLink)}
+				>
+					<img
+						src="/assets/peachesinterplanetary_album_cover.png"
+						className={styles.icon}
+					/>
+					<div className={styles.externalLinkLabel}>Peaches Interplantary (OST)</div>
 				</Button>
 				<Button href="https://alisongrace.bandcamp.com" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon} />
-					<div className={styles.externalLinkLabel}>bandcamp</div>
+					<div className={styles.externalLinkLabel}>full discography (bandcamp)</div>
 				</Button>
-				<Button href="https://vgen.co/alisongrace" className={styles.externalLink}>
+				{/* <Button href="https://vgen.co/alisongrace" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" className={styles.icon} />
 					<div className={styles.externalLinkLabel}>commissions (closed)</div>
-				</Button>
+				</Button> */}
 			</div>
+			<img
+				className={styles.aliSittingImage}
+				src="/assets/ali_sitting.png"
+			/>
 		</>
 	);
 }
