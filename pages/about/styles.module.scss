@@ -3,10 +3,12 @@
 .smallTextBox {
 	padding: 4px 0px;
 	margin: auto;
+	box-sizing: border-box;
 
 	width: 100%;
 
-	background-color:  rgba(25, 33, 66, 0.5);
+	border: $border;
+	background-color: $background-color;
 }
 
 .alisonIRLImage {

@@ -45,7 +45,7 @@ export default function About() {
 						src="/assets/alisongrace_magfest2026_photo.png"
 					/>
 					<div className={styles.smallTextBox}>
-						<i>lovely photo taken by <a href="mailto:ali@alisongrace.music">Ami Moregore</a></i>
+						<i>lovely photo taken by <a href="https://amimoregore.com/">Ami Moregore</a></i>
 					</div>
 				</div>
 			</Columns>
