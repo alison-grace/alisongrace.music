@@ -14,7 +14,7 @@ export default function About() {
 
 			<Columns>
 				<div>
-					<TextBox big subtle>
+					<TextBox big>
 						<p><i>
 							</i>alisongrace<i> explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying modern production techniques to old soundchips and hardware, breathing new life into them.
 						</i></p>

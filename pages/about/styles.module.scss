@@ -2,13 +2,19 @@
 
 .smallTextBox {
 	padding: 4px 0px;
-	width: 100%;
 	margin: auto;
+
+	width: 100%;
+
 	background-color:  rgba(25, 33, 66, 0.5);
 }
 
 .alisonIRLImage {
 	width: 405px;
+	max-width: 100%;
 	height: 610px;
+
+	box-sizing: border-box;
+
 	border: $border;
 }
