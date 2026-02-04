@@ -65,7 +65,7 @@ export default function Page({ children }) {
 
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta property="og:title" content="alisongrace.music" />
-				<meta property="og:description" content="welcome to my portfolio website!" />
+				<meta property="og:description" content="mreoow! this is my website :3" />
 				<meta property="og:image" content="/assets/ali_portrait.png" />
 				<meta name="theme-color" content="#6f9cd6" />
 

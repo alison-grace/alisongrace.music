@@ -10,7 +10,7 @@ export default function Music() {
 			<Head>
 				<title>alisongrace (music)</title>
 				<meta property="og:title" content="alisongrace (music)" />
-				<meta property="og:description" content="portfolio examples of what i do best." />
+				<meta property="og:description" content="my portfolio, and some examples of my music!" />
 			</Head>
 
 			<Columns className={styles.musicColumns}>
