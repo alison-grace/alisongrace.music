@@ -28,7 +28,7 @@ export default function About() {
 							</i>(<a href="https://www.cavestory.org/game-info/about-cave-story.php">Cave Story</a>)<i>{', '}
 							and{' '}
 							<a href="https://en.wikipedia.org/wiki/Toby_Fox">Toby Fox</a>{' '}
-							</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major inspirations for her--proving that she can create beautiful, powerful, and evocative music with any tools.
+							</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major founding inspirations for her--proving that she can create beautiful, powerful, and evocative music with any tools.
 						</i></p>
 						<p><i>
 							She uses a range of DAWs, trackers, </i>Game Boys<i>, guitars, a vast collection of physical and digital instruments, in combination with her cat's support to compose and produce her music.
@@ -39,10 +39,15 @@ export default function About() {
 						</p>
 					</TextBox>
 				</div>
-				<img
-					className={styles.alisonIRLImage}
-					src="/assets/alisongrace_magfest2026_photo.png"
-				/>
+				<div>
+					<img
+						className={styles.alisonIRLImage}
+						src="/assets/alisongrace_magfest2026_photo.png"
+					/>
+					<div className={styles.smallTextBox}>
+						<i>lovely photo taken by <a href="mailto:ali@alisongrace.music">Ami Moregore</a></i>
+					</div>
+				</div>
 			</Columns>
 		</>
 	);
