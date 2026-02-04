@@ -1,20 +1,22 @@
 @use '../../styles/variables.scss' as *;
 
 .musicList {
-	display: flex;
-	flex-direction: column;
-	overflow-y: auto;
-
-	width: 508px;
-	max-width: 100%;
-	box-sizing: border-box;
+	width: 100%;
 	height: 400px;
 
 	scrollbar-color: currentColor transparent;
 
 	border: $border;
 	background-color: $background-color;
-
-	padding: 4px;
 	margin: 16px 0px;
+}
+
+.musicListingsWrapper {
+	overflow-y: auto;
+	box-sizing: border-box;
+
+	height: 100%;
+	padding: 8px;
+
+	mask-image: linear-gradient(to bottom, var(--mask-color-top), black 16px, black calc(100% - 16px), var(--mask-color-bottom));
 }

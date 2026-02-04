@@ -43,7 +43,7 @@ export default function Music() {
 					</p>
 				</TextBox> */}
 
-				<div>
+				<div className={styles.musicExamplesColumn}>
 					<div className={styles.musicSmallTextBox}>
 						<p>
 							below are a mix of released tracks, unreleased tracks, demos, and covers!

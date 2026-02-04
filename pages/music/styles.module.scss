@@ -27,10 +27,13 @@
 	margin: 16px 0px;
 	box-sizing: border-box;
 
-	width: 496px;
 	max-width: 100%;
 
-	// border: $border;
+	border: $border;
 	// background-color: $background-color;
 	background-color:  rgba(0, 0, 0, 0.6);
+}
+
+.musicExamplesColumn {
+	width: 508px;
 }

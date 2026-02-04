@@ -1,12 +1,14 @@
 @use '../../styles/variables.scss' as *;
 
 .musicListing {
-	margin: 4px;
-
 	border: $border;
 	background-color: $background-color;
 
 	text-align: left;
+
+	&:not(:first-child) {
+		margin-top: 8px;
+	}
 
 	&Heading {
 		display: flex;
