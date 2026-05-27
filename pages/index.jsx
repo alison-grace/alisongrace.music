@@ -17,16 +17,27 @@ export default function Home() {
 					<u>latest releases:</u>
 				</div>
 				<Button
-					href="https://chipt4t.bandcamp.com/album/celestial-circuit"
+					href="https://technomarina.bandcamp.com/album/under-the-blue-sky-sega-racing-tribute"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
-						src="/assets/celestialcircuit_album_cover.png"
+						src="/assets/underthebluesky_album_cover.png"
 						className={styles.icon}
 					/>
 					<div className={styles.externalLinkLabel}>
-						Celestial Circuit (Chip T4T)
+						Under the Blue Sky:<br/>
+						Sega Racing Tribute (TM)
 					</div>
+				</Button>
+				<Button
+					href="https://aidanonline.bandcamp.com/track/good-to-eat-feat-alisongrace"
+					className={classNames(styles.externalLink, styles.bigExternalLink)}
+				>
+					<img
+						src="/assets/goodtoeat_cover.png"
+						className={styles.icon}
+					/>
+					<div className={styles.externalLinkLabel}>GOOD to EAT (ft. alisongrace)</div>
 				</Button>
 				<Button
 					href="https://alisongrace.bandcamp.com/album/venus"
@@ -38,7 +49,7 @@ export default function Home() {
 					/>
 					<div className={styles.externalLinkLabel}>venus (ALBUM)</div>
 				</Button>
-				<Button
+				{/* <Button
 					href="https://alisongrace.bandcamp.com/album/peaches-interplanetary-ost"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
@@ -47,7 +58,7 @@ export default function Home() {
 						className={styles.icon}
 					/>
 					<div className={styles.externalLinkLabel}>Peaches Interplantary (OST)</div>
-				</Button>
+				</Button> */}
 				<Button href="https://alisongrace.bandcamp.com" className={styles.externalLink}>
 					<img src="https://www.google.com/s2/favicons?sz=64&domain=bandcamp.com" className={styles.icon} />
 					<div className={styles.externalLinkLabel}>full discography (bandcamp)</div>
