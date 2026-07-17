@@ -74,7 +74,7 @@ export default function Page({ children }) {
 				<base target="_blank" />
 			</Head>
 
-			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-2HW5F6LBL0"></Script>
+			{/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2HW5F6LBL0"></Script> */}
 
 			<OuterWall />
 
