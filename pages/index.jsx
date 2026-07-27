@@ -17,16 +17,16 @@ export default function Home() {
 					<u>latest releases:</u>
 				</div>
 				<Button
-					href="https://technomarina.bandcamp.com/album/under-the-blue-sky-sega-racing-tribute"
+					href="https://cloudcrew.bandcamp.com/album/feiras-tale-wam-6"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
-						src="/assets/underthebluesky_album_cover.png"
+						src="/assets/feirastale_album_cover.png"
 						className={styles.icon}
 					/>
 					<div className={styles.externalLinkLabel}>
-						Under the Blue Sky:<br/>
-						Sega Racing Tribute (TM)
+						Feira's Tale (WAM #6)<br/>
+						(Cloud Crew)
 					</div>
 				</Button>
 				<Button
