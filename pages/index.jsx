@@ -64,7 +64,7 @@ export default function Home() {
 					<div className={styles.externalLinkLabel}>full discography (bandcamp)</div>
 				</Button>
 				{/* <Button href="https://vgen.co/alisongrace" className={styles.externalLink}>
-					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" className={styles.icon} />
+					<img src="https://www.google.com/s2/favicons?sz=64&domain=vgen.co" classNam e={styles.icon} />
 					<div className={styles.externalLinkLabel}>commissions (closed)</div>
 				</Button> */}
 			</div>
