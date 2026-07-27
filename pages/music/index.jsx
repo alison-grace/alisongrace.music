@@ -49,9 +49,9 @@ export default function Music() {
 							below are a mix of released tracks, unreleased tracks, demos, and covers!
 						</p>
 					</div>
-					<iframe className={styles.iframe}
+					{/* <iframe className={styles.iframe}
 						src="https://bandcamp.com/EmbeddedPlayer/album=1073379070/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/">
-					</iframe>
+					</iframe> */}
 					<MusicList/>
 				</div>
 			</Columns>
