@@ -17,7 +17,7 @@ export default function Home() {
 					<u>latest releases:</u>
 				</div>
 				<Button
-					href="https://cloudcrew.bandcamp.com/album/feiras-tale-wam-6"
+					href="https://resonantunion.bandcamp.com/album/anotherside-eternal-night"
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
