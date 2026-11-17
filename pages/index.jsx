@@ -21,12 +21,11 @@ export default function Home() {
 					className={classNames(styles.externalLink, styles.bigExternalLink)}
 				>
 					<img
-						src="/assets/feirastale_album_cover.png"
+						src="/assets/anotherside_album_cover.png"
 						className={styles.icon}
 					/>
 					<div className={styles.externalLinkLabel}>
-						Feira's Tale (WAM #6)<br/>
-						(Cloud Crew)
+						ANOTHERSIDE (Resonant Union)
 					</div>
 				</Button>
 				<Button
