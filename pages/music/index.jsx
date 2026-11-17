@@ -17,7 +17,7 @@ export default function Music() {
 				<div className={styles.musicTextBoxes}>
 					<TextBox big>
 						<p>
-							i've been quite busy for a while, so my commissions are <b>closed indefinitely</b>, but i'm <b>always open</b> for <b>work on games/projects/albums</b>.
+							i make chiptune and VGM, both for and outside of games! i score, compose, arrange, and produce, as well as write for my own personal music project. i've been quite busy finishing up college, so my VGen commissions are <b>closed indefinitely</b>, but i'm <b>always open</b> for <b>work on games/projects/albums</b>. do reach out!
 						</p>
 						<p>
 							when they do eventually open again, you can send commission requests through{" "}

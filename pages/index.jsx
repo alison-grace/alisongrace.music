@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<TextBox portraitURL="/assets/ali_portrait.png" className={styles.sagging} style={{ letterSpacing: "1px" }}>
-				hi, i'm alison!<br/>i make chiptune and VGM, for and outside of games.
+				hi~ i'm alisongrace,<br/>but you can call me the game boy guitar girl ;3
 				<BlinkingCursor />
 			</TextBox>
 

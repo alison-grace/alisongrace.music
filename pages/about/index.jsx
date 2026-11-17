@@ -16,7 +16,7 @@ export default function About() {
 				<div>
 					<TextBox big>
 						<p><i>
-							</i>alisongrace<i> explores chiptune and video game music from a songwriter's perspective. She lives and breathes the mantra that 'tools don't make the artist,' applying modern production techniques to old soundchips and hardware, breathing new life into them.
+							</i>alisongrace<i> explores chiptune and video game music from a songwriter's perspective. She lives and breathes the phrase that 'tools don't make the artist,' applying modern production techniques to old soundchips and hardware, breathing new life into them.
 						</i></p>
 						{/* <p>
 							growing up, alison's childhood was filled with music and games--both playing games and trying to make her own. her favorite part of game developemnt was writing music for them.
@@ -28,10 +28,10 @@ export default function About() {
 							</i>(<a href="https://www.cavestory.org/game-info/about-cave-story.php">Cave Story</a>)<i>{', '}
 							and{' '}
 							<a href="https://en.wikipedia.org/wiki/Toby_Fox">Toby Fox</a>{' '}
-							</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are major founding inspirations for her--proving that she can create beautiful, powerful, and evocative music with any tools.
+							</i>(<a href="https://www.undertale.com/">UNDERTALE</a>)<i> are foundational inspirations for her--proving that she can create beautiful, powerful, and evocative music with any tools.
 						</i></p>
 						<p><i>
-							She uses a range of DAWs, trackers, </i>Game Boys<i>, guitars, a vast collection of physical and digital instruments, in combination with her cat's support to compose and produce her music.
+							She uses a range of DAWs, trackers, </i>Game Boys<i>, guitars, sound modules, and a vast collection of physical and digital instruments, in combination with her cat's support, to compose and produce her music.
 						</i></p>
 						<p>
 							<b>email:</b> <a href="mailto:ali@alisongrace.music">ali@alisongrace.music</a><br/>

@@ -24,9 +24,11 @@ export default function MusicList() {
 				onScroll={handleScroll}
 			>
 				<MusicListing
-					label="Close, and far (unreleased)"
-					url="/music/Close,_and_far.mp3"
-					date="09/03/25"
+					label={
+						<a href="https://chipt4t.bandcamp.com/track/fashion-snow">Fashion Snow (original, game boy + guitar)</a>
+					}
+					url="/music/Fashion_Snow.mp3"
+					date="09/02/25"
 				/>
 				<MusicListing
 					label="anew break (demo)"
@@ -34,16 +36,9 @@ export default function MusicList() {
 					date="07/12/25"
 				/>
 				<MusicListing
-					label="Fear of the dark (unreleased)"
-					url="/music/fear_of_the_dark_(finished).mp3"
-					date="05/19/24"
-				/>
-				<MusicListing
-					label={
-						<a href="https://chipt4t.bandcamp.com/track/fashion-snow">Fashion Snow (original, 2025)</a>
-					}
-					url="/music/Fashion_Snow.mp3"
-					date="09/02/25"
+					label="Close, and far (game boy+, unreleased)"
+					url="/music/Close,_and_far.mp3"
+					date="09/03/25"
 				/>
 				<MusicListing
 					label="Fated Bond (unreleased)"
@@ -51,13 +46,28 @@ export default function MusicList() {
 					date="04/25/23"
 				/>
 				<MusicListing
+					label="Your Lies (game boy, unreleased)"
+					url="/music/your_lies.mp3"
+					date="idk bro :sob:"
+				/>
+				<MusicListing
+					label="Fear of the dark (unreleased)"
+					url="/music/fear_of_the_dark_(finished).mp3"
+					date="05/19/24"
+				/>
+				<MusicListing
+					label="the hand shredder (snes)"
+					url="/music/the_hand_shredder.mp3"
+					date="05/26/26"
+				/>
+				{/* <MusicListing
 					label="macromedia flash (Roland Sound Canvas, demo)"
 					url="/music/macromedia_flash.mp3"
 					date="01/05/25"
-				/>
+				/> */}
 				<MusicListing
 					label={
-						<a href="https://youtu.be/HaxDTWGDbes">Undertale - Toby Fox (UNDERTALE) (LSDj+ cover)</a>
+						<a href="https://youtu.be/HaxDTWGDbes">Undertale - Toby Fox (UNDERTALE) (game boy+ cover)</a>
 					}
 					url="/music/undertale_-_toby_fox_final.mp3"
 					date="03/21/24"
@@ -73,7 +83,7 @@ export default function MusicList() {
 					date="05/19/24"
 				/>
 				<MusicListing
-					label="Snake Man - Mega Man 3 (LSDj cover)"
+					label="Snake Man - Mega Man 3 (game boy cover)"
 					url="/music/snake_man_lsdj.mp3"
 					date=""
 				/>
