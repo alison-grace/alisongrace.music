@@ -31,6 +31,13 @@ export default function MusicList() {
 					date="09/02/25"
 				/>
 				<MusicListing
+					label={
+						<a href="https://alisongrace.bandcamp.com/album/venus">venus (ALBUM, preview of multiple tracks)</a>
+					}
+					url="/music/venus_preview.mp3"
+					date="01/15/25"
+				/>
+				<MusicListing
 					label="anew break (demo)"
 					url="/music/anew_break.mp3"
 					date="07/12/25"

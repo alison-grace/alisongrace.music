@@ -17,11 +17,10 @@ export default function Music() {
 				<div className={styles.musicTextBoxes}>
 					<TextBox big>
 						<p>
-							i make chiptune and VGM, both for and outside of games! i score, compose, arrange, and produce, as well as write for my own personal music project. i've been quite busy finishing up college, so my VGen commissions are <b>closed indefinitely</b>, but i'm <b>always open</b> for <b>work on games/projects/albums</b>. do reach out!
+							i make chiptune and VGM, both for and outside of games! i score, compose, arrange, and produce, as well as write for my own personal music project.
 						</p>
 						<p>
-							when they do eventually open again, you can send commission requests through{" "}
-							<a href="https://vgen.co/alisongrace">VGen</a>.
+							i've been quite busy finishing up college, so my <a href="https://vgen.co/alisongrace">VGen</a> commissions are <b>closed indefinitely</b>, but i'm <b>always open</b> for <b>work on games/projects/albums</b>!
 						</p>
 						<p>
 							i'm <b>semi-negotiable</b> on rates! please contact me for more info.
@@ -44,14 +43,10 @@ export default function Music() {
 				</TextBox> */}
 
 				<div className={styles.musicExamplesColumn}>
-					<div className={styles.musicSmallTextBox}>
-						<p>
-							below are a mix of released tracks, unreleased tracks, demos, and covers!
-						</p>
+					<div className={styles.smallTextBox}>
+						below are a mix of released tracks,<br/>
+						unreleased tracks, demos, and covers!
 					</div>
-					{/* <iframe className={styles.iframe}
-						src="https://bandcamp.com/EmbeddedPlayer/album=1073379070/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/">
-					</iframe> */}
 					<MusicList/>
 				</div>
 			</Columns>
